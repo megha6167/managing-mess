@@ -1,0 +1,46 @@
+*{
+
+}
+@media screen and (min-width: 800px){
+	p.work{
+		width: 100%;
+		color: #000000;
+		padding-top: 100px;
+	}
+	#all{
+		background-color: #000000;
+	}
+}
+#all{
+	border-width: 50px;
+	border-style: hidden;
+	border-color: #5382ed;
+	background-color: #cbf7f9;
+}
+p.work{
+	float: right;
+	overflow: auto; 
+	font-style: inherit;
+	font-size: 20px;
+	border-width: thick;
+	border-radius: 2px;
+	color: blue;
+	border-collapse: collapse;	
+	/*font-style: CommercialScript BT regular;*/
+	padding: 50px;
+	width: 30%;
+	text-align: center;
+	background-color: #f9cbf5;
+}
+a{
+	padding: 10px;
+	background-color: #5b5d7c;
+	color: #ffffff;
+	width: 30%;
+}
+div.menu-cover{
+	float: right;
+}
+div.navbar{
+	float: right;
+}
