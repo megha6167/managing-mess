@@ -8,14 +8,14 @@
 		padding-top: 100px;
 	}
 	#all{
-		background-color: #000000;
+		font-family: "Quicksand", cursive;
 	}
 }
 #all{
 	border-width: 50px;
 	border-style: hidden;
-	border-color: #5382ed;
-	background-color: #cbf7f9;
+	border-color: #ed4264;
+	background: linear-gradient(to right , #4b79a1 , #283e51);
 }
 p.work{
 	float: right;
@@ -26,7 +26,7 @@ p.work{
 	border-radius: 2px;
 	color: blue;
 	border-collapse: collapse;	
-	/*font-style: CommercialScript BT regular;*/
+	font: "fonts/impact.ttf";
 	padding: 50px;
 	width: 30%;
 	text-align: center;
@@ -34,13 +34,13 @@ p.work{
 }
 a{
 	padding: 10px;
-	background-color: #5b5d7c;
+	background-color: transparent;
 	color: #ffffff;
 	width: 30%;
 }
-div.menu-cover{
-	float: right;
-}
 div.navbar{
 	float: right;
-}
+	}
+div.menu-cover{
+	float: right;
+}	
