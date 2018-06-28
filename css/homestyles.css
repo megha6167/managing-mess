@@ -34,25 +34,23 @@ p.work{
 	background-color: #f9cbf5;
 	margin-top: 100px;
 }
-a{
-	padding: 10px;
-	background-color: transparent;
-	color: #ffffff;
-	width: 30%;
-}
+
+
 .topnav{
 	background-color: #333;
 	overflow: hidden;
+	width: 100%;
+	margin-right: 0;
 }
 
 .topnav a {
 	float: left;
-	display: block;
 	color: #f2f2f2;
 	text-align: center;
-	padding: 14px 16px;
+	padding: 14px 0px;
 	text-decoration: none;
-	font-size: 17px;
+	font-size: 15px;
+	width: 25%;
 }
 .topnav a:hover{
 	background-color: #ddd;
@@ -62,9 +60,70 @@ a{
 	background-color: #4caf50;
 	color: white;
 }
-.topnav .icon {
-	display: none;
+
+
+/*Full Screen Menu bar*/
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:#333;
+    overflow-y: hidden;
+    transition: 0.5s;
 }
+.overlay-content{
+	position: relative;
+	top: 25%;
+	width: 100%;
+	text-align: center;
+	margin-top: 40px;
+}
+.overlay a{
+	padding: 8px;
+	text-decoration: none;
+	text-align: center;
+	font-size: 50px;
+	color: #f2f2f2;
+	display: block;
+	transition: .3s;
+}
+.overlay a:hover {
+    color: #818181;
+}
+.fullScreen{
+height: 100%;
+top: 85px;
+}
+/*Full screen Menu-bar ends here*/
+
+/*Menu icon*/
+#container {
+    display: inline-block;
+}
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 3px;
+    background-color: #f2f2f2;
+    margin: 4px 0;
+    transition: 0.4s;
+    text-align: center;
+}
+
+.change .bar1 {
+       transform: rotate(-45deg) translate(-5px, 4px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+       transform: rotate(45deg) translate(-5px, -8px);
+}
+
+
+/*menu icon ends here*/
 
 
 @media screen and (max-width: 600px) {
@@ -73,15 +132,15 @@ a{
 		float: right;
 		display: block;
 	}
-}
-
-@media screen and (max-width: 600px){ 
 .topnav.responsive{position:relative;}
 .topnav.responsive a.icon {
 	position: absolute;
 	right: 0;
 	top: 0;
 	}
+	.overlay a{
+		font-size: 25px; 
+	 }
 .topnav.responsive a {
 	float: none;
 	display: block;
