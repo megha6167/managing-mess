@@ -14,21 +14,45 @@
 			<div class="logo">
 					<img src="images/fl.jpg" alt="logo" width="50px" height="50px">
 			</div>
+
 			<div class="name">TAKE IT<br>EASY<br></div>
 				<div class="navbar" id="navbar">
-					<a href="getstarted">GET STARTED</a>
+					
+
+				<div class="topnav" id="topnav">
+					<a href="getstarted">GET </a>
+
 					<a href="list">MENU THIS WEEK</a>
 					<a href="about">ABOUT</a>
-					<a href="javascript:void(0);" class="icon" onclick="myFunction()">
-						<i class="fa fa-bars"></i>
+					<a href="javascript:void(0);" class="icon"  onclick="transforming_menu_icon()" >
+						<div id="container" >    
+    					<div class="bar1"></div>
+					    <div class="bar2"></div>
+						<div class="bar3"></div>
+						</div>
 					</a>
 				</div>		
 		</header>
 
+					
+
 		<P class="work">
 				all in one for science class 10 has been written specially for students studying in class 10 with CBSE curriculum. it provides all the explanation and guidance needed to study efficiently and succeed in exam. to make the students completely ready for the examination, it has detailed theory and practice questions in all the chapters
+				
 		</P>
+		<div id="myFullNav" class="overlay">
+ 			<a href="#">BC</a>
+			<a href="#">KC</a>
+		</div>
 		<script type="text/javascript">	
+			/*function transforming_menu_icon(x){
+				x.classList.toggle("change");
+			}*/
+			function transforming_menu_icon(){
+				document.getElementById("container").classList.toggle("change");
+				
+				document.getElementById("myFullNav").classList.toggle("fullScreen");
+			}
 		</script>
 
 	</body>
