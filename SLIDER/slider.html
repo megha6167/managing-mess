@@ -1,0 +1,48 @@
+<html>
+<head>
+<title>SLiding images</title>
+<style>
+.images {
+	min-width: 100%;
+	width: 100%;
+	height: 150px;
+	position: relative;
+	animation: fading;
+	animation-duration: 10s;
+	animation-iteration-count: 1;
+}
+@keyframes fading
+{
+	0%{opacity: 0;}
+	15%{opacity: 1;}
+	90%{opacity: 1;}
+	100%{opacity: 0;}
+}
+.mySlider1{
+	font-size: 30;
+	color: brown;
+	background-color:#f44336;
+	color: #fff;
+	position: absolute;
+	top: 30%;
+	bottom: 70%;
+	z-index: 1;
+
+
+}
+</style>
+</head>
+<body>
+<div class="mySlider">
+	<image class= "images" src="5542_Bird_2.jpg" >
+	<div class="mySlider1">Bird</div>
+</div>
+	<image class= "images" src="353e4a6e-bbfd-4714-b10c-2f8f8a9cdd14_15.jpg" >
+	<div class="mySlider1">Rabbit</div>
+</div>
+<div class="mySlider">
+	<image class= "images" src="5538_Samsung_Picture_Quality_2.jpg" >
+	<div class="mySlider1">Butterfly</div>
+</div>
+</body>
+</html>
