@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>p2</title>
+	<style type="text/css">
+		.parallax {
+    	background: /** our background image **/;
+    	background-repeat: no-repeat;
+    	background-size: cover;
+		}
+
+		.main h1 {
+    	text-align: center;
+    	padding: 15rem 0;
+    	font-size: 4em;
+    	color: white;
+    	background: rgba(29, 25, 29, 0.37);
+		}
+	</style>
+	<script type="text/javascript">
+		var parallax= document.querySelector(".parallax");
+		window.addEventListener("scroll", function() {
+    		var scrolledHeight= window.pageYOffset,
+    		limit= parallax.offsetTop+ parallax.offsetHeight;
+    		if(scrolledHeight > parallax.offsetTop && scrolledHeight <= limit) {
+        		parallax.style.backgroundPositionY= (scrolledHeight - parallax.offsetTop) /1.5+ "px";
+    		} 
+    		else {
+        		parallax.style.backgroundPositionY= "0";
+    		}
+		}
+		);
+		/*We select our parallax element and add scroll event on the window. Then we use pageYOffset property of window to record how much we have vertically scrolled from the top in a variable scrolledHeight*. In case you are dealing with pageYOffset for the first time; here is a demo to illustrate just that
+		We update the backgroundPositionY (background-position) of our parallax element to the opposite direction (to bottom) of scrolling as we scroll vertically down. That creates our parallax effect.
+
+		Also notice that we subtract the scrolledHeight(window.pageYOffset) by parallax.offsetTop. It is because window.pageYOffset is calculated relative to the 	viewport. So, to make it relative to our element, we minus it by how much it is far from the top of the viewport.
+
+		parallax.style.backgroundPositionY= (scrolledHeight - parallax.offsetTop) /1.5+ "px";
+		But, wait. Why did we divide it by 1.5 there?
+
+		We did so to actually slow down the parallax effect. You can change it to any number you desire. While doing all that, we also make sure that background-position doesn’t update until everything above our parallax element is scrolled off the viewport and also that it stops updating when our element has gone out of the viewport.
+
+		//evaluates to true only when parallax element
+		//reaches the top of the viewport and until it is in the viewport.
+		*/
+	</script>
+</head>
+<body>
+	<header>
+    ... //Some Header Content
+</header>
+<section class="parallax">
+    <h1>LET'S DO IT</h1>
+</section>
+</body>
+</html>
