@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+   
+
+   
+</head>
+<body id="grad">
+ <style>
+                #grad{
+            background:linear-gradient(to right,#0e0246,grey)
+                    }
+                a:link{
+                    color:yellow;
+                    text-decoration-style: solid;
+                }
+                   #link{
+                    font-size: large;
+                    text-align: center;
+                   }
+                                                   /* a:link {
+    color: green; 
+    background-color: transparent; 
+    text-decoration: none;
+}*/
+
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+ul {
+    list-style-type: none;
+ 
+}
+
+li {
+    float: center;
+    display:inline;
+    padding: 20px;
+    font-style: oblique;
+    font-family:cursive;
+   
+}
+button {
+    border-radius: 40px;
+    color: darkorchid;
+    text-decoration: none;
+}
+
+#container{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+ </style>
+
+
+
+<ul id="link">
+       <li> <a 
+        href="homepage.html" id="link">HOME
+       </a></li>
+       <li>       </li>
+       <li> <a href="aboutus.html" id="link">ABOUT US</a></li>
+       <li><a > <button><img src="button.png" alt="..." aria-setsize="10px"></button></a></li>
+       
+    </ul>
+    <div id=container>
+    <div class="slidepic" >
+    <img class="food" src="food chholabhatura.jpg" >
+    <img class="food" src="food dosa.jpg" >
+    <img class="food" src="food khamand.jpg" >
+    <img class="food" src="food noodles.jpg" >
+    <img class="food" src="food pav bhaji.jpg" >
+    <img class="food" src="food uttapam.jpg" >
+    </div>  
+    </div>
+
+    
+    <script>
+            var slideindex=0;
+            callslide();
+            function callslide(){
+                var i;
+                var x=document.getElementsByClassName("food");
+                for(i=0;i<x.length;i++){
+                    x[i].style.display="none";
+                }
+                slideindex++;
+                if(slideindex>x.length){
+                    slideindex=1;
+                }
+                x[slideindex-1].style.display="inline-block";
+                setTimeout(callslide,2000);
+            }
+        
+        
+         
+        </script>
+
+
+
+</body>
+</html>
