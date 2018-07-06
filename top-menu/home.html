@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>IITI MESS</title>
+	<style type="text/css">
+	.header_without_scroll{
+		height: 110px;
+		width: 100%;
+		position: relative;
+		top: 2px;
+		transition-duration: .5s;
+	}
+	.header_with_scroll{
+		height: 100px;
+		width: 100%;
+		position: fixed;
+		top:0;
+		transition-duration: .5s;
+	}
+	#header div{
+		display: inline;
+	}
+	
+	.header_without_scroll::after{
+		content: " ";
+		transition-duration: 1s;
+		background-image: url("logo_background_grey.jpg");
+		background-size: 100% 110px;
+		opacity: 1;
+		top: 0px;
+		left: 0px;
+		position: absolute;
+		width: 100%;
+		height: 110px;
+		z-index: -1;
+	}
+	.header_with_scroll::after{
+		content: " ";
+		background-image: url("logo_background_brown.jpg");
+		transition-duration: 1s;
+		background-size: 100% 100px;
+		border: 2px solid #ececec;
+		opacity: .9;
+		top: 0px;
+		left: 0px;
+		position: absolute;
+		width: 100%;
+		height: 100px;
+		z-index: -1;
+	}
+	.logo_without_scroll img{
+		transition-duration: 1s;
+		width: 125px;
+		height: 125px;
+		margin-left: 20px;
+		border-radius: 50%;
+
+	}
+	.logo_with_scroll img{
+		transition-duration: 1s;
+		width: 100px;
+		height: 100px;
+		margin-left: 25px;
+		border-radius: 50%;
+		border: 1px solid rgb(126, 60, 27) ;
+
+	}
+
+	.nav_without_scroll{
+		transition-duration: 1s;
+		float: right;
+		margin-right: 30px;
+		color: rgb(126, 60, 27);
+		text-decoration: none;
+		font-size: 80px;
+	}
+	.nav_with_scroll{
+		transition-duration: 1s;
+		float: right;
+		margin-right: 35px;
+		color: #ececec;
+		text-decoration: none;
+		font-size: 70px;
+	}
+	#nav_menu::hover{
+		transition-duration: 1s;
+		padding: 5px;
+
+	}
+
+	</style>
+</head>
+<body>
+<!--- Header-->
+<div id="header" class="header_without_scroll">
+	<div id="header_inner" >
+		<a href="#" id="logo" class="logo_without_scroll"><img src="logo.jpeg"></a>
+	</div>
+		<div>
+			 <a href="#" id="nav_menu" class="nav_without_scroll">...</a>
+		</div>
+</div>
+
+<p>This example demonstrates how to slide down a navbar when the user starts to scroll the page.
+
+Scroll down this frame to see the effect!
+
+Scroll to the top to hide the navbar.
+
+Lorem ipsum dolor dummy text sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+This example demonstrates how to slide down a navbar when the user starts to scroll the page.
+
+Scroll down this frame to see the effect!
+
+Scroll to the top to hide the navbar.
+
+Lorem ipsum dolor dummy text sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+This example demonstrates how to slide down a navbar when the user starts to scroll the page.
+
+Scroll down this frame to see the effect!
+
+Scroll to the top to hide the navbar.
+
+Lorem ipsum dolor dummy text sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+Lorem ipsum dolor dummy te-xt sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+This example demonstrates how to slide down a navbar when the user starts to scroll the page.
+
+Scroll down this frame to see the effect!
+
+Scroll to the top to hide the navbar.
+
+Lorem ipsum dolor dummy text sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+Lorem ipsum dolor dummy text sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+This example demonstrates how to slide down a navbar when the user starts to scroll the page.
+
+Scroll down this frame to see the effect!
+
+Scroll to the top to hide the navbar.
+
+Lorem ipsum dolor dummy text sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+This example demonstrates how to slide down a navbar when the user starts to scroll the page.
+
+Scroll down this frame to see the effect!
+
+Scroll to the top to hide the navbar.
+
+Lorem ipsum dolor dummy text sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+
+
+This example demonstrates how to slide down a navbar when the user starts to scroll the page.
+
+Scroll down this frame to see the effect!
+
+Scroll to the top to hide the navbar.
+
+Lorem ipsum dolor dummy text sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+This example demonstrates how to slide down a navbar when the user starts to scroll the page.
+
+Scroll down this frame to see the effect!
+
+Scroll to the top to hide the navbar.
+
+Lorem ipsum dolor dummy text sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+This example demonstrates how to slide down a navbar when the user starts to scroll the page.
+
+Scroll down this frame to see the effect!
+
+Scroll to the top to hide the navbar.
+
+Lorem ipsum dolor dummy text sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+This example demonstrates how to slide down a navbar when the user starts to scroll the page.
+
+Scroll down this frame to see the effect!
+
+Scroll to the top to hide the navbar.
+
+Lorem ipsum dolor dummy text sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+This example demonstrates how to slide down a navbar when the user starts to scroll the page.
+
+Scroll down this frame to see the effect!
+
+Scroll to the top to hide the navbar.
+
+Lorem ipsum dolor dummy text sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+This example demonstrates how to slide down a navbar when the user starts to scroll the page.
+
+Scroll down this frame to see the effect!
+
+Scroll to the top to hide the navbar.
+
+Lorem ipsum dolor dummy text sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</p>
+<script>
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+        document.getElementById("header").className = "header_with_scroll";
+     	document.getElementById("logo").className="logo_with_scroll";
+     	document.getElementById("nav_menu").className="nav_with_scroll";
+     	
+     	
+           
+    }
+    else{
+    	 document.getElementById("header").className = "header_without_scroll";
+    	 document.getElementById("logo").className="logo_without_scroll";
+    	 document.getElementById("nav_menu").className="nav_without_scroll";
+     	
+    	
+        
+    }
+}
+</script>
+
+
+</body>
+</html>
