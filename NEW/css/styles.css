@@ -1,0 +1,244 @@
+
+/*TOP navigation bar starts here*/
+#header div{
+	display: inline;
+}
+.header_without_scroll
+{
+	height: 110px;
+	width: 100%;
+	position: relative;
+	transition-duration: 1s;
+}
+.header_with_scroll
+{
+	height: 85px;
+	width: 100%;
+	position: fixed;
+	top:0;
+	border-bottom:2px groove #ececeb;
+	transition-duration: 1s;
+}
+
+/*For inserting a transparent background*/
+.header_without_scroll::after 
+{
+	content: " ";
+	transition-duration: 1s;
+	background-image: url("logo_background_grey.jpg");
+	background-size: 100% 110px;
+	opacity: 1;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	width: 100%;
+	height: 110px;
+	z-index: -1;
+}
+.header_with_scroll::after
+{
+	content: " ";
+	background-image: url("logo_background_brown.jpg");
+	transition-duration: 1s;
+	background-size: 100% 85px;
+	border: 2px solid #ececec;
+	opacity: .85;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	width: 100%;
+	height: 85px;
+	z-index: -1;
+}
+/*transparent bckground ends here*/
+/*Logo starts here*/
+.logo_without_scroll img
+{
+	transition-duration: 1.5s;
+	width: 125px;
+	height: 125px;
+	margin-left: 20px;
+	border-radius: 50%;
+}
+.logo_with_scroll img
+{
+	transition-duration: 1.5s;
+	width: 84px;
+	height: 83px;
+	margin-top: 3px;
+	margin-left: 25px;
+	border-radius: 50%;
+}
+#logo:hover img{
+	transition-duration: .4s;
+	transform: scale(1.07);
+	filter:blur(1px);
+}
+/*logo ends here*/
+#nav_icon{
+	float: right;
+	margin-right: 80px;
+	text-decoration: none; 
+}
+#nav_icon:hover span{
+	transition-duration: .3s;
+	margin-right: 8px;
+	width: 11px;
+	height: 9px;
+}
+.nav_icon_without_scroll
+{
+	margin-top: 80px;
+}
+.nav_icon_with_scroll
+{
+	margin-top: 60px;
+}
+.nav_icon_without_scroll span
+{
+	transition-duration: .3s;
+	height: 10px;
+  	width: 10px;
+  	margin-left: 4px;
+  	background-color: rgb(126, 60, 27);
+  	border-radius: 50%;
+  	display: inline-block;
+}
+.nav_icon_with_scroll span
+{
+	transition-duration: .3s;
+	height: 10px;
+  	width: 10px;
+  	margin-left: 4px;
+  	background-color: #ececec;
+  	border-radius: 50%;
+  	display: inline-block;
+}
+/*Top navvgation bar ends here*/
+
+
+
+/*Adding Media query*/
+@media screen and (max-width: 800px)
+{
+	/*TOP navigation bar starts here*/
+	.header_without_scroll
+	{
+		height: 70px;
+	}
+	.header_with_scroll
+	{
+		height: 55px;
+	}
+	/*For inserting a transparent background*/
+	.header_without_scroll::after 
+	{
+		background-size: 100% 75px;
+		height: 75px;
+	}
+	.header_with_scroll::after
+	{
+		background-size: 100% 63px;
+		height: 63px;
+	}
+	/*transparent bckground ends here*/
+	/*Logo starts here*/
+	.logo_without_scroll img
+	{
+		width: 84px;
+		height: 84px;
+		margin-left: 4px;
+	}
+	.logo_with_scroll img
+	{
+		width: 61px;
+		height: 61px;
+		margin-top: 2px;
+		margin-left: 5px;
+	}
+	#logo:hover img
+	{
+		transform: scale(1.05);
+		filter:blur(.2px);
+	}
+	/*logo ends here*/
+	#nav_icon
+	{
+		margin-right: 9px;
+	}
+	#nav_icon:hover span
+	{	
+		margin-right: 6px;
+		width: 11px;
+		height: 9px;
+	}
+	.nav_icon_without_scroll
+	{
+		margin-top: 50px;
+	}
+	.nav_icon_with_scroll
+	{
+		margin-top: 42px;
+	}
+	
+/*Top navvgation bar ends here*/
+}
+
+/*SLIDER STARTS*/
+#slider img{
+	width: 16.66666%;	/*change it and see the effect*/
+	height: 600px;       /*also this*/
+	float: left;
+}
+
+@keyframes slider-animation{
+	0%{
+		left: 0;
+	}
+	19%{
+		left: 0;
+	}
+	20%{
+		left: -100%;
+	}
+	39%{
+		left: -100%;
+	}
+	40%{
+		left: -200%;
+	}
+	59%{
+		left: -200%;
+	}
+	60%{
+		left: -300%;
+	}
+	79%{
+		left: -300%;
+	}
+	80%{
+		left: -400%;
+	}
+	99%{
+		left: -400%;
+	}
+	100%{
+		left: -500%;
+	}
+}
+
+.container-slider{ 
+	margin-top: 15px;
+	width:100%;
+	height: 600px;
+	overflow: hidden;
+}
+
+.slider{
+	width:600%;		
+	height: 600px;
+	position: relative;
+	animation-name: slider-animation;
+	animation-iteration-count: infinite;
+	animation-duration: 25s;
+}
