@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <script type="text/javascript" src="js/index.js"></script>
     <link rel="shortcut icon" type="images/jpeg" href="images/logo.jpeg">
+    <script type="text/javascript" src="js/menu.js"></script>
 </head>
 <body>
 
@@ -17,12 +18,21 @@
         <div id="header_inner" >
             <a href="index.html" id="logo" class="logo_without_scroll"><img src="images/logo.jpeg"></a>
         </div>
-        <a href="#" id="nav_icon" class="nav_icon_without_scroll">
+        <a href="#" id="nav_icon" class="nav_icon_without_scroll" onclick="inCat()">
             <span id="dot1"></span>
             <span id="dot2"></span>
             <span id="dot3"></span>
         </a>
     </div>
+    <!--menu-->
+    <div id="myNav" class="menu">
+        <a href="javascript:void(0)" class="exit" onclick="outCat()">&cross;</a>
+        <div class="content-menu">
+            <a href="#">Bhopal Caterers</a>
+            <a href="#">Kanaka Caterers</a>
+        </div>
+    </div>
+    <!--menu ends-->
  <!--top navigation bar ends here-->
     <!--just for the sake of scrolling-->
 

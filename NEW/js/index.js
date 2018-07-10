@@ -26,3 +26,4 @@ function myFunction()
 	 document.getElementById("nav_icon").className="nav_icon_without_scroll";
     }
 }
+
