@@ -223,7 +223,7 @@
 }
 
 /*media query for height*/
-@media screen and (min-height: 450px){
+/*@media screen and (min-height: 450px){
 	.menu a{
 		font-size: 20px;
 	}
@@ -232,7 +232,7 @@
 		top: 15px;
 		right: 35px;
 	}
-}
+}*/
 /*menu ends*/
 	
 /*Top navvgation bar ends here*/
