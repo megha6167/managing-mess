@@ -436,69 +436,97 @@
 			display: show;
 			color: rgba(256,256,256,1);
 		}
-		2%{
-			transform: scaleY(0);
+		4%{
+			transform: scaleY(-0.7);
 			background: url('background_text.jpg');
 	opacity: 0.7;
 			display: show;
 			color: rgba(256,256,256,1);
 		}
-		2%{
-			transform: scaleY(0);
+		6%{
+			transform: scaleY(1);
 			background: url('background_text.jpg');
 	opacity: 0.7;
 			display: show;
 			color: rgba(256,256,256,1);
 		}
-		2%{
-			transform: scaleY(0);
+		8%{
+			transform: scaleY(0.7);
 			background: url('background_text.jpg');
 	opacity: 0.7;
 			display: show;
 			color: rgba(256,256,256,1);
 		}
-		2%{
-			transform: scaleY(0);
+		10%{
+			transform: scaleY(1);
 			background: url('background_text.jpg');
 	opacity: 0.7;
 			display: show;
 			color: rgba(256,256,256,1);
 		}
-		2%{
-			transform: scaleY(0);
+		12%{
+			transform: scaleY(0.8);
 			background: url('background_text.jpg');
 	opacity: 0.7;
 			display: show;
 			color: rgba(256,256,256,1);
 		}
-		2%{
-			transform: scaleY(0);
+		14%{
+			transform: scaleY(1);
 			background: url('background_text.jpg');
 	opacity: 0.7;
 			display: show;
 			color: rgba(256,256,256,1);
 		}
-		2%{
-			transform: scaleY(0);
+		16%{
+			transform: scaleY(0.8);
 			background: url('background_text.jpg');
 	opacity: 0.7;
 			display: show;
 			color: rgba(256,256,256,1);
 		}
-		2%{
-			transform: scaleY(0);
+		18%{
+			transform: scaleY(1);
 			background: url('background_text.jpg');
 	opacity: 0.7;
 			display: show;
 			color: rgba(256,256,256,1);
 		}
-		2%{
-			transform: scaleY(0);
+		20%{
+			transform: scaleY(0.9);
 			background: url('background_text.jpg');
 	opacity: 0.7;
 			display: show;
 			color: rgba(256,256,256,1);
 		}
+		22%{
+			transform: scaleY(1);
+			background: url('background_text.jpg');
+	opacity: 0.7;
+			display: show;
+			color: rgba(256,256,256,1);
+		}
+		24%{
+			transform: scaleY(0.9);
+			background: url('background_text.jpg');
+	opacity: 0.7;
+			display: show;
+			color: rgba(256,256,256,1);
+		}
+		28%{
+			transform: scaleY(1);
+			background: url('background_text.jpg');
+	opacity: 0.7;
+			display: show;
+			color: rgba(256,256,256,1);
+		}
+		/*2%{
+			transform: scaleY(0);
+			background: url('background_text.jpg');
+	opacity: 0.7;
+			display: show;
+			color: rgba(256,256,256,1);
+		}*/
 		
 		
 		
