@@ -41,7 +41,6 @@
 	background-image: url("logo_background_brown.jpg");
 	transition-duration: 1s;
 	background-size: 100% 85px;
-	border: 2px solid #ececec;
 	opacity: .85;
 	top: 0px;
 	left: 0px;
@@ -158,13 +157,16 @@
 
 /*SLIDER STARTS*/
 /*image animation*/
-.container-slider{ 
+#container-slider { 
 	margin-top: 0px;
-	width:100%;
+	width: 100%;
 	height: 600px;
 	overflow: hidden;
+	box-sizing: border-box;
+	border-right: 5px solid #ececec;
+	border-left: 5px solid #ececec;
+	border-bottom: 5px solid #ececec;
 }
-
 .slider{
 	width:600%;		
 	height: 600px;
@@ -243,7 +245,7 @@
   20.3% {
     -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
     transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
-    opacity: .7;
+    opacity: 1;
   }
 
   24.3% {
@@ -253,7 +255,7 @@
   92.833333%
   { -webkit-transform: perspective(400px);
     transform: perspective(400px);
-    opacity: .7;
+    opacity: 1;
   }
 
   to {
@@ -264,14 +266,11 @@
 }
 
 #text-image{
-	
-	background: url('background_text.jpg');
-	opacity: 0.7;
 	z-index: 1;
 	padding: 10px;
 	position: absolute;
 	color: transparent;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: "Lobster", cursive;
 	font-size: 40px;
 	float: bottom;
 	margin-top: 400px;
@@ -280,14 +279,24 @@
 	color: rgba(256,256,256,1);
 	animation: text_image 6s infinite;
 	}
+#text-image::after
+{
+	content: " ";
+	background-image: url("logo_background_brown.jpg");
+	transition-duration: 1s;
+	background-size: 100% 60px;
+	color: #ececec;
+	opacity: .7;
+	top: 5px;
+	left: 0px;
+	position: absolute;
+	width: 100%;
+	height: 60px;
+	z-index: -1;
+}
 	/*text animation ends*/
 
-
-
-
-
-
-	/*Adding Media query*/
+/*Adding Media query*/
 @media screen and (max-width: 800px)
 {
 	/*TOP navigation bar starts here*/
