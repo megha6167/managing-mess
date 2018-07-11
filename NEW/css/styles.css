@@ -172,7 +172,7 @@
 	position: relative;
 	animation-name: slider-animation;
 	animation-iteration-count: infinite;
-	animation-duration: 30s;
+	animation-duration: 40s;
 }
 @keyframes slider-animation{
 	0%{
@@ -278,7 +278,7 @@
     margin-left: 4vw;
     display: show;
 	color: rgba(256,256,256,1);
-	animation: text_image 6s infinite;
+	animation: text_image 8s infinite;
 	}
 	/*text animation ends*/
 
