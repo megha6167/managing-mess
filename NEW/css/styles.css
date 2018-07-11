@@ -184,8 +184,8 @@
 
 /*menu starts*/
 .menu{
-	height: 100%;
-	width: 0;
+	height: 0%;
+	width: 100%;
 	position: fixed;
 	z-index: 1;/*to keep it on top*/
 	left: 0;
@@ -215,7 +215,7 @@
     color: #f1f1f1;
 }
 
-.menu .exit{2
+.exit{
 	position: absolute;
 	top: 25px;
 	right: 45px;
