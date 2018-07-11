@@ -115,73 +115,6 @@
   	display: inline-block;
 }
 /*Top navvgation bar ends here*/
-
-
-
-/*Adding Media query*/
-@media screen and (max-width: 800px)
-{
-	/*TOP navigation bar starts here*/
-	.header_without_scroll
-	{
-		height: 70px;
-	}
-	.header_with_scroll
-	{
-		height: 55px;
-	}
-	/*For inserting a transparent background*/
-	.header_without_scroll::after 
-	{
-		background-size: 100% 75px;
-		height: 75px;
-	}
-	.header_with_scroll::after
-	{
-		background-size: 100% 63px;
-		height: 63px;
-	}
-	/*transparent bckground ends here*/
-	/*Logo starts here*/
-	.logo_without_scroll img
-	{
-		width: 84px;
-		height: 84px;
-		margin-left: 4px;
-	}
-	.logo_with_scroll img
-	{
-		width: 61px;
-		height: 61px;
-		margin-top: 2px;
-		margin-left: 5px;
-	}
-	#logo:hover img
-	{
-		transform: scale(1.05);
-		filter:blur(.2px);
-	}
-	/*logo ends here*/
-	#nav_icon
-	{
-		margin-right: 9px;
-	}
-	#nav_icon:hover span
-	{	
-		margin-right: 6px;
-		width: 11px;
-		height: 9px;
-	}
-	.nav_icon_without_scroll
-	{
-		margin-top: 50px;
-	}
-	.nav_icon_with_scroll
-	{
-		margin-top: 42px;
-	}
-}
-
 /*menu starts*/
 .menu{
 	height: 0%;
@@ -222,18 +155,11 @@
 	font-size: 60px;
 }
 
-/*media query for height*/
-/*@media screen and (min-height: 450px){
-	.menu a{
-		font-size: 20px;
-	}
-	.menu .exit{
-		font-size: 40px;
-		top: 15px;
-		right: 35px;
-	}
-}*/
+
+
 /*menu ends*/
+
+
 	
 /*Top navigation bar ends here*/
 
@@ -312,10 +238,9 @@
 }
 /*slider ends*/
 
-}
 
 
-/*media queeries end*/
+
 
 
 
@@ -648,3 +573,84 @@
 
 	}
 	/*text animation ends*/
+
+
+
+
+
+
+	/*Adding Media query*/
+@media screen and (max-width: 800px)
+{
+	/*TOP navigation bar starts here*/
+	.header_without_scroll
+	{
+		height: 70px;
+	}
+	.header_with_scroll
+	{
+		height: 55px;
+	}
+	/*For inserting a transparent background*/
+	.header_without_scroll::after 
+	{
+		background-size: 100% 75px;
+		height: 75px;
+	}
+	.header_with_scroll::after
+	{
+		background-size: 100% 63px;
+		height: 63px;
+	}
+	/*transparent bckground ends here*/
+	/*Logo starts here*/
+	.logo_without_scroll img
+	{
+		width: 84px;
+		height: 84px;
+		margin-left: 4px;
+	}
+	.logo_with_scroll img
+	{
+		width: 61px;
+		height: 61px;
+		margin-top: 2px;
+		margin-left: 5px;
+	}
+	#logo:hover img
+	{
+		transform: scale(1.05);
+		filter:blur(.2px);
+	}
+	/*logo ends here*/
+	#nav_icon
+	{
+		margin-right: 9px;
+	}
+	#nav_icon:hover span
+	{	
+		margin-right: 6px;
+		width: 11px;
+		height: 9px;
+	}
+	.nav_icon_without_scroll
+	{
+		margin-top: 50px;
+	}
+	.nav_icon_with_scroll
+	{
+		margin-top: 42px;
+	}
+}
+
+/*media query for height*/
+@media screen and (min-height: 450px){
+	.menu a{
+		font-size: 20px;
+	}
+	.menu .exit{
+		font-size: 40px;
+		top: 15px;
+		right: 35px;
+	}
+}
