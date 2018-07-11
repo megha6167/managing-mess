@@ -215,7 +215,7 @@
     color: #f1f1f1;
 }
 
-.menu .exit{
+.menu .exit{2
 	position: absolute;
 	top: 25px;
 	right: 45px;
@@ -235,7 +235,7 @@
 }*/
 /*menu ends*/
 	
-/*Top navvgation bar ends here*/
+/*Top navigation bar ends here*/
 
 
 
@@ -402,7 +402,7 @@
 	background: url('background_text.jpg');
 	opacity: 0.7;
 	}
-    50%{
+    20%{
 		margin-left: 4vw;
 		color: rgba(256,256,256,1);
 		display: show;
@@ -435,7 +435,7 @@
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 40px;
 	float: bottom;
-	margin-top: 520px;
+	margin-top: 400px;
 
 	}
 	/*text animation ends*/
