@@ -388,41 +388,147 @@
 /*image animation ends*/
 /*text animation*/
 @keyframes text_image{
-	0%{
+	/*0%
 		display: block;
 		margin-left: 65vw;
-	/*	color: rgba(256,256,256,1);
+	color: rgba(256,256,256,1);
 		background: url('background_text.jpg');
-	opacity: 0.7;*/
-	}
-	0.1111%{
+	opacity: 0.7;
+	
+	0.1111%
 		display: show;
 		margin-left: 65vw;
 		color: rgba(256,256,256,1);
 	background: url('background_text.jpg');
 	opacity: 0.7;
-	}
-    20%{
+	
+    20%
 		margin-left: 4vw;
 		color: rgba(256,256,256,1);
 		display: show;
 		background: url('background_text.jpg');
 	opacity: 0.7;
-	}
-	88%{
+	
+	88%
 		background: url('background_text.jpg');
 	opacity: 0.7;
 		margin-left: 4vw;
 		display: block;
 		color: rgba(256,256,256,1);
-	}
-	100%{
+	
+	100%
 		background: url('background_text.jpg');
 	opacity: 0;
 		margin-left: 4vw;
 		display: block;
-		color: transparent;
-	}
+		color: transparent;*/
+		0%{
+			transform: scaleY(0);
+			background: url('background_text.jpg');
+	opacity: 0;
+			display: block;
+			color: rgba(256,256,256,0);
+		}
+		2%{
+			transform: scaleY(0);
+			background: url('background_text.jpg');
+	opacity: 0.7;
+			display: show;
+			color: rgba(256,256,256,1);
+		}
+		5%{
+			transform: scaleY(1);
+			background: url('background_text.jpg');
+	opacity: 0.7;
+			display: show;
+			color: rgba(256,256,256,1);
+		}
+			6%{
+			transform: scaleY(0);
+			background: url('background_text.jpg');
+	opacity: 0.7;
+			display: show;
+			color: rgba(256,256,256,1);
+		}
+			7%{
+			transform: scaleY(1);
+			background: url('background_text.jpg');
+	opacity: 0.7;
+			display: show;
+			color: rgba(256,256,256,1);
+		}
+			8%{
+			transform: scaleY(0);
+			background: url('background_text.jpg');
+	opacity: 0.7;
+			display: show;
+			color: rgba(256,256,256,1);
+		}
+		9%{
+			transform: scaleY(1);
+			background: url('background_text.jpg');
+	opacity: 0.7;
+			display: show;
+			color: rgba(256,256,256,1);
+		}
+		10%{
+			transform: scaleY(0);
+			background: url('background_text.jpg');
+	opacity: 0.7;
+			display: show;
+			color: rgba(256,256,256,1);
+		}
+		11%{
+			transform: scaleY(1);
+			background: url('background_text.jpg');
+	opacity: 0.7;
+			display: show;
+			color: rgba(256,256,256,1);
+		}
+		12%{
+			transform: scaleY(0);
+			background: url('background_text.jpg');
+	opacity: 0.7;
+			display: show;
+			color: rgba(256,256,256,1);
+		}
+		13%{
+			transform: scaleY(1);
+			background: url('background_text.jpg');
+	opacity: 0.7;
+			display: show;
+			color: rgba(256,256,256,1);
+		}
+		14%{
+			transform: scaleY(0);
+			background: url('background_text.jpg');
+	opacity: 0.7;
+			display: show;
+			color: rgba(256,256,256,1);
+		}
+		15%{
+			transform: scaleY(1);
+			background: url('background_text.jpg');
+	opacity: 0.7;
+			display: show;
+			color: rgba(256,256,256,1);
+		}
+
+
+		99%{
+			transform: scaleY(1);
+			background: url('background_text.jpg');
+	opacity: 0.7;
+			display: show;
+			color: rgba(256,256,256,1);
+		}
+		100%{
+			transform: scaleY(1);
+			background: url('background_text.jpg');
+	opacity: 0;
+			display: block;
+			color: rgba(256,256,256,0);
+		}
 }
 #text-image{
 	animation: text_image 6s ease-in infinite running;
@@ -436,6 +542,6 @@
 	font-size: 40px;
 	float: bottom;
 	margin-top: 400px;
-
+    margin-left: 4vw;
 	}
 	/*text animation ends*/
