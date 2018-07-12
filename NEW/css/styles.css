@@ -127,18 +127,11 @@
 	overflow-x: hidden;/*to disable scroll*/
 	transition: 0.5s;
 }
-.content-menu{
-	position: relative;
-	top: 25%;
-	width: 100%;	
-	text-align: center;
-	margin-top: 30px;/*to avoid conflict*/
-}
 
 .menu a{
 	padding: 8px;
 	text-decoration: none;
-	font-size: 36px;
+	ont-size: 36px;
 	color: #818181;
 	display: block;   /*not inline*/
 	transition: 0.3s;
@@ -152,6 +145,25 @@
 	top: 25px;
 	right: 45px;
 	font-size: 60px;
+}
+.content-menu{
+	text-align: center;
+	position: relative;
+	top: 35%;
+	width: 100%;	
+	margin-top: 30px;/*to avoid conflict*/
+}
+.logo_bc{
+	width: 200px;
+	height: 200px;
+	float: left;
+	position: absolute;
+}
+.logo_kc{
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	float: right;
 }
 /*menu ends*/
 
