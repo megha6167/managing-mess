@@ -125,20 +125,6 @@
 	overflow-x: hidden;/*to disable scroll*/
 	transition: 0.5s;
 }
-.menu::after 
-{
-	content: " ";
-	transition-duration: 1s;
-	background-image: url("images (5).jpg");
-	background-size: 100% 100%;
-	opacity: .8;
-	top: 0px;
-	left: 0px;
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	z-index: -1;
-}
 .content-menu{
 	position: relative;
 	top: 25%;
@@ -146,11 +132,10 @@
 	text-align: center;
 	margin-top: 30px;/*to avoid conflict*/
 }
-
 .menu a{
 	padding: 8px;
 	text-decoration: none;
-	font-size: 36px;
+	ont-size: 36px;
 	color: #818181;
 	display: block;   /*not inline*/
 	transition: 0.3s;
@@ -167,6 +152,30 @@
 	top: 25px;
 	right: 45px;
 	font-size: 60px;
+}
+.content-menu{
+	align-self: center;
+	text-align: center;
+	position: relative;
+	top: 35%;
+	width: 60%;	
+	margin-top: 5px;/*to avoid conflict*/
+	margin-left: 500px;
+}
+.logo_bc{
+	margin-top: 25px;
+	float: left;
+	display: flex;
+	width: 300px;
+	flex-wrap: wrap;
+	height: 300px;
+}
+.logo_kc{
+	float: left;
+	display: flex;
+	flex-wrap: wrap;
+	width: 300px;
+	height: 300px;
 }
 /*menu ends*/
 
