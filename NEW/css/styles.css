@@ -122,7 +122,6 @@
 	z-index: 1;/*to keep it on top*/
 	left: 0;
 	top: 0;
-	background-image: url("images/images(2).jpg");
 	overflow-x: hidden;/*to disable scroll*/
 	transition: 0.6s;
 }
@@ -142,17 +141,38 @@
 
 .content-menu
 {
-	width: 50%;
+	width: 100%;
+	height: 70%;
+	position: absolute;
 	top: 20%;
 	background-color: black;
 	display: inline;	
-	margin-top: 40px;/*to avoid conflict*/
+	overflow: hidden;
 }
-.content-menu img{
-	width: 250px;
-	height: 250px;
+
+.caterer
+{
+	margin-left: 12%;
+	margin-right: 12%;
+	width: 25%;
+	height: 100%;
+	background-color: red;
+	display: inline-block;
 }
-.caterer1{
+.caterer img{
+	position: relative;
+	left: .5%;
+	width: 99%;
+	height: 71.4%;
+}
+.caterer h2{
+	position: relative;
+	text-align: center;
+}
+/*.caterer{
+	width: 30%;
+}
+/*.caterer1{
 	margin-top: 15%;
 	margin-left: 30%;
 	float: left;
@@ -161,7 +181,7 @@
 	margin-top: 15%;
 	margin-right: 30%;
 	float: right;
-}
+}*/
 .exit{
 	position: absolute;
 	top: 25px;
