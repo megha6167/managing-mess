@@ -129,9 +129,9 @@
 {
 	content: " ";
 	transition-duration: 1s;
-	background-image: url("images (6).jpg");
+	background-image: url("images (5).jpg");
 	background-size: 100% 100%;
-	opacity: .85;
+	opacity: .8;
 	top: 0px;
 	left: 0px;
 	position: absolute;
@@ -141,7 +141,7 @@
 }
 .content-menu{
 	position: relative;
-	top: 20%;
+	top: 25%;
 	width: 100%;	
 	text-align: center;
 	margin-top: 30px;/*to avoid conflict*/
@@ -154,6 +154,9 @@
 	color: #818181;
 	display: block;   /*not inline*/
 	transition: 0.3s;
+}
+.center-menu a{
+	display: inline-block;
 }
 .menu a:hover, .menu a:focus {
     color: #f1f1f1;
