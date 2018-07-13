@@ -127,7 +127,13 @@
 	overflow-x: hidden;/*to disable scroll*/
 	transition: 0.5s;
 }
-
+.content-menu{
+	position: relative;
+	top: 25%;
+	width: 100%;	
+	text-align: center;
+	margin-top: 30px;/*to avoid conflict*/
+}
 .menu a{
 	padding: 8px;
 	text-decoration: none;
@@ -135,6 +141,9 @@
 	color: #818181;
 	display: block;   /*not inline*/
 	transition: 0.3s;
+}
+.center-menu a{
+	display: inline-block;
 }
 .menu a:hover, .menu a:focus {
     color: #f1f1f1;
