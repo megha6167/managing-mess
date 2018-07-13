@@ -122,7 +122,8 @@
 	z-index: 1;/*to keep it on top*/
 	left: 0;
 	top: 0;
-	overflow: hidden;/*to disable scroll*/
+	background-image: url("images/images(2).jpg");
+	overflow-x: hidden;/*to disable scroll*/
 	transition: 0.5s;
 }
 .menu::after 
@@ -149,7 +150,7 @@
 .menu a{
 	padding: 8px;
 	text-decoration: none;
-	ont-size: 36px;
+	font-size: 36px;
 	color: #818181;
 	display: block;   /*not inline*/
 	transition: 0.3s;
@@ -169,25 +170,20 @@
 }
 .content-menu{
 	align-self: center;
-	text-align: center;
 	position: relative;
-	top: 35%;
-	width: 60%;	
+	top: 25%;
+	width: 50%;	
 	margin-top: 5px;/*to avoid conflict*/
-	margin-left: 500px;
+	margin-left: 400px;
 }
 .logo_bc{
-	margin-top: 25px;
+	margin-top: 16px;
 	float: left;
-	display: flex;
 	width: 300px;
-	flex-wrap: wrap;
 	height: 300px;
 }
 .logo_kc{
-	float: left;
-	display: flex;
-	flex-wrap: wrap;
+	float: right;
 	width: 300px;
 	height: 300px;
 }
