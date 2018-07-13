@@ -114,7 +114,7 @@
   	display: inline-block;
 }
 /*Top navvgation bar ends here*/
-/*menu starts*/
+/*Fullscreen menu starts*/
 .menu{
 	height: 0%;
 	width: 100%;
@@ -123,14 +123,13 @@
 	left: 0;
 	top: 0;
 	background-image: url("images/images(2).jpg");
-	overflow-x: hidden;/*to disable scroll*/
-	transition: 0.5s;
+	overflow: hidden;/*to disable scroll*/
+	transition: 0.6s;
 }
 .menu::after 
 {
 	content: " ";
-	transition-duration: 1s;
-	background-image: url("images11.jpg");
+	background-image: url("grey2.jpg");
 	background-size: 100% 100%;
 	opacity: .85;
 	top: 0px;
@@ -140,52 +139,28 @@
 	height: 100%;
 	z-index: -1;
 }
-.content-menu{
-	position: relative;
-	top: 25%;
-	width: 100%;	
-	text-align: center;
-	margin-top: 30px;/*to avoid conflict*/
-}
-.menu a{
-	padding: 8px;
-	text-decoration: none;
-	font-size: 36px;
-	color: #818181;
-	display: block;   /*not inline*/
-	transition: 0.3s;
-}
-.center-menu a{
-	display: inline-block;
-}
-.menu a:hover, .menu a:focus {
-    color: #f1f1f1;
-}
 
+.content-menu
+{
+	width: 100%;
+	height: 50%;
+	background-color: black;
+	display: inline;	
+	margin-top: 15%;/*to avoid conflict*/
+}
+.caterer
+{
+	width: 50%;
+	height: 15%;
+	overflow: hidden;
+	background-color: red;
+	display: inline;
+}
 .exit{
 	position: absolute;
 	top: 25px;
 	right: 45px;
 	font-size: 60px;
-}
-.content-menu{
-	align-self: center;
-	position: relative;
-	top: 25%;
-	width: 50%;	
-	margin-top: 5px;/*to avoid conflict*/
-	margin-left: 400px;
-}
-.logo_bc{
-	margin-top: 16px;
-	float: left;
-	width: 300px;
-	height: 300px;
-}
-.logo_kc{
-	float: right;
-	width: 300px;
-	height: 300px;
 }
 /*menu ends*/
 
