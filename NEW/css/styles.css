@@ -150,6 +150,7 @@
 
 .caterer
 {
+	transition-duration: .5s;
 	width: 22%;
 	height: 92%;
 	display: inline-block;
@@ -181,12 +182,29 @@
 	top: 25px;
 	right: 45px;
 	text-decoration: none;
-	color: #404040;
-	font-size: 60px;
+	color: #4d4d4d;
+	text-shadow: 3px 2px #a6a6a6;
 }
 .exit:hover{
-	color: #404040;
+	color: #737373;
+	text-shadow: none;
 }
+.caterer:hover h1{
+	color: #737373;
+}
+.caterer:hover {
+	transition-duration: .7s;
+	transform: scale(1.2);
+}
+.caterer:hover img {
+	transition-duration: .7s;
+	box-shadow: 5px 5px #a6a6a6;
+	border-style: groove;
+}
+#BC:hover > #KC{
+	transform: scale(1.2);
+}
+
 /*menu ends*/
 
 /*SLIDER STARTS*/
