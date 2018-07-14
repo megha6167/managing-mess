@@ -26,4 +26,11 @@ function myFunction()
 	 document.getElementById("nav_icon").className="nav_icon_without_scroll";
     }
 }
+function mouseOver() {
+    document.getElementById("BC").classList.add("hover1");
+}
+
+function mouseOut() {
+    document.getElementById("BC").classList.remove("hover1");
+}
 

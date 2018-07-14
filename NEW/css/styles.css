@@ -150,7 +150,7 @@
 
 .caterer
 {
-	transition-duration: .5s;
+	transition-duration: .4s;
 	width: 22%;
 	height: 92%;
 	display: inline-block;
@@ -165,12 +165,16 @@
 .caterer h1{
 	position: relative;
 	text-align: center;
+	text-decoration: none;
 	text-shadow: 3px 2px #a6a6a6;
 	color: #4d4d4d;
 }
 #BC{
 	margin-left: 18%;
 	margin-right: 9%;
+}
+a{
+	text-decoration: none;
 }
 #KC{
 	margin-right: 18%;
@@ -187,25 +191,29 @@
 }
 .exit:hover{
 	color: #737373;
-	text-shadow: none;
 }
 .caterer:hover h1{
 	color: #737373;
 }
 .caterer:hover {
-	transition-duration: .7s;
+	transition-duration: .6s;
 	transform: scale(1.2);
 }
 .caterer:hover img {
-	transition-duration: .7s;
+	transition-duration: .6s;
 	box-shadow: 5px 5px #a6a6a6;
 	border-style: groove;
 }
-#BC:hover > #KC{
-	transform: scale(1.2);
+#BC:hover+#KC{
+	transition-duration: .6s;
+	transform: scale(.8);
+	filter: blur(1.8px);
 }
-
-/*menu ends*/
+.hover1{
+	transition-duration: .6s;
+	transform: scale(.8);
+	filter: blur(1.8px);
+}/*menu ends*/
 
 /*SLIDER STARTS*/
 /*image animation*/
