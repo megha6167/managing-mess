@@ -145,36 +145,34 @@
 	height: 70%;
 	position: absolute;
 	top: 20%;
-	background-color: black;
-	display: inline;	
-	overflow: hidden;
+	display: inline;
 }
 
 .caterer
 {
-	width: 25%;
-	height: 90%;
-	background-color: red;
+	width: 22%;
+	height: 92%;
 	display: inline-block;
 }
 .caterer img{
 	position: relative;
 	width: 97%;
-	height: 80%;
+	height: 75%;
 	border-radius: 50%;
-	border: 5px solid #8c8c8c;
+	border: 5px solid #a6a6a6;
 }
 .caterer h1{
-	position: absolute;
+	position: relative;
 	text-align: center;
-	color: brown;
+	text-shadow: 3px 2px #a6a6a6;
+	color: #4d4d4d;
 }
 #BC{
-	margin-left: 15%;
+	margin-left: 18%;
 	margin-right: 9%;
 }
 #KC{
-	margin-right: 15%;
+	margin-right: 18%;
 	margin-left: 9%;
 	
 }
@@ -183,8 +181,11 @@
 	top: 25px;
 	right: 45px;
 	text-decoration: none;
-	color: brown;
+	color: #404040;
 	font-size: 60px;
+}
+.exit:hover{
+	color: #404040;
 }
 /*menu ends*/
 
