@@ -122,8 +122,7 @@
 	z-index: 1;/*to keep it on top*/
 	left: 0;
 	top: 0;
-	background-image: url("images/images(2).jpg");
-	overflow-x: hidden;/*to disable scroll*/
+	overflow: hidden;/*to disable scroll*/
 	transition: 0.6s;
 }
 .menu::after 
@@ -142,30 +141,51 @@
 
 .content-menu
 {
-	align-items: center;
-	width: 50%;
+	width: 100%;
+	height: 70%;
+	position: absolute;
 	top: 20%;
-	background-color: black;
 	display: inline;	
-	margin-top: 10%;/*to avoid conflict*/
 }
-.content-menu img{
-	width: 250px;
-	height: 250px;
+
+.caterer
+{
+	width: 22%;
+	height: 92%;
+	display: inline-block;
 }
-.caterer1{
-	margin-top: 15%;
-	float: left;
+.caterer img{
+	position: relative;
+	width: 97%;
+	height: 75%;
+	border-radius: 50%;
+	border: 5px solid #a6a6a6;
 }
-.caterer2{
-	margin-top: 15%;
-	float: right;
+.caterer h1{
+	position: relative;
+	text-align: center;
+	text-shadow: 3px 2px #a6a6a6;
+	color: #4d4d4d;
+}
+#BC{
+	margin-left: 18%;
+	margin-right: 9%;
+}
+#KC{
+	margin-right: 18%;
+	margin-left: 9%;
+	
 }
 .exit{
 	position: absolute;
 	top: 25px;
 	right: 45px;
+	text-decoration: none;
+	color: #404040;
 	font-size: 60px;
+}
+.exit:hover{
+	color: #404040;
 }
 /*menu ends*/
 
