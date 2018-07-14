@@ -150,6 +150,7 @@
 
 .caterer
 {
+	transition-duration: .4s;
 	width: 22%;
 	height: 92%;
 	display: inline-block;
@@ -164,12 +165,16 @@
 .caterer h1{
 	position: relative;
 	text-align: center;
+	text-decoration: none;
 	text-shadow: 3px 2px #a6a6a6;
 	color: #4d4d4d;
 }
 #BC{
 	margin-left: 18%;
 	margin-right: 9%;
+}
+a{
+	text-decoration: none;
 }
 #KC{
 	margin-right: 18%;
@@ -181,13 +186,34 @@
 	top: 25px;
 	right: 45px;
 	text-decoration: none;
-	color: #404040;
-	font-size: 60px;
+	color: #4d4d4d;
+	text-shadow: 3px 2px #a6a6a6;
 }
 .exit:hover{
-	color: #404040;
+	color: #737373;
 }
-/*menu ends*/
+.caterer:hover h1{
+	color: #737373;
+}
+.caterer:hover {
+	transition-duration: .6s;
+	transform: scale(1.2);
+}
+.caterer:hover img {
+	transition-duration: .6s;
+	box-shadow: 5px 5px #a6a6a6;
+	border-style: groove;
+}
+#BC:hover+#KC{
+	transition-duration: .6s;
+	transform: scale(.8);
+	filter: blur(1.8px);
+}
+.hover1{
+	transition-duration: .6s;
+	transform: scale(.8);
+	filter: blur(1.8px);
+}/*menu ends*/
 
 /*SLIDER STARTS*/
 /*image animation*/
