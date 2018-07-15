@@ -38,10 +38,10 @@
 .header_with_scroll::after
 {
 	content: " ";
-	background-image: url("logo_background_brown.jpg");
+	background-image: url("esg.jpg");
 	transition-duration: 1s;
 	background-size: 100% 85px;
-	opacity: .85;
+	opacity: .80;
 	top: 0px;
 	left: 0px;
 	position: absolute;
@@ -114,7 +114,7 @@
   	display: inline-block;
 }
 /*Top navvgation bar ends here*/
-/*menu starts*/
+/*Fullscreen menu starts*/
 .menu{
 	height: 0%;
 	width: 100%;
@@ -122,31 +122,45 @@
 	z-index: 1;/*to keep it on top*/
 	left: 0;
 	top: 0;
-	background-color: rgb(0,0,0);
-	background-color: rgba(0,0,0,0.9);
+	background-image: url("images/images(2).jpg");
 	overflow-x: hidden;/*to disable scroll*/
-	transition: 0.5s;
+	transition: 0.6s;
 }
-.content-menu{
-	position: relative;
-	top: 25%;
-	width: 100%;	
-	text-align: center;
-	margin-top: 30px;/*to avoid conflict*/
-}
-
-.menu a{
-	padding: 8px;
-	text-decoration: none;
-	font-size: 36px;
-	color: #818181;
-	display: block;   /*not inline*/
-	transition: 0.3s;
-}
-.menu a:hover, .menu a:focus {
-    color: #f1f1f1;
+.menu::after 
+{
+	content: " ";
+	background-image: url("grey2.jpg");
+	background-size: 100% 100%;
+	opacity: .85;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
 }
 
+.content-menu
+{
+	align-items: center;
+	width: 50%;
+	top: 20%;
+	background-color: black;
+	display: inline;	
+	margin-top: 10%;/*to avoid conflict*/
+}
+.content-menu img{
+	width: 250px;
+	height: 250px;
+}
+.caterer1{
+	margin-top: 15%;
+	float: left;
+}
+.caterer2{
+	margin-top: 15%;
+	float: right;
+}
 .exit{
 	position: absolute;
 	top: 25px;
@@ -295,6 +309,36 @@
 	z-index: -1;
 }
 	/*text animation ends*/
+
+
+	/*address bar starts*/
+footer{
+	background-color: grey;
+	width: 100%;
+	height: 130px;
+}
+.address-bar{
+	font-size: 40px;
+	color: black;
+	text-align: center;
+}	
+.address-bar span{
+	font-family: "Knockout",serif;
+	letter-spacing: 0.6em;
+	padding: 8px;
+}
+
+.elements-footer{
+	padding: 10px;
+	display: inline;
+	align-items: center;
+}
+.elements-footer i{
+	padding: 30px;
+}
+
+	/*address bar ends*/ 
+
 
 /*Adding Media query*/
 @media screen and (max-width: 800px)
