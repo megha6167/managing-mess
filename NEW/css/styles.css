@@ -122,8 +122,7 @@
 	z-index: 1;/*to keep it on top*/
 	left: 0;
 	top: 0;
-	background-image: url("images/images(2).jpg");
-	overflow-x: hidden;/*to disable scroll*/
+	overflow: hidden;/*to disable scroll*/
 	transition: 0.6s;
 }
 .menu::after 
@@ -142,32 +141,79 @@
 
 .content-menu
 {
-	align-items: center;
-	width: 50%;
+	width: 100%;
+	height: 70%;
+	position: absolute;
 	top: 20%;
-	background-color: black;
 	display: inline;	
-	margin-top: 10%;/*to avoid conflict*/
 }
-.content-menu img{
-	width: 250px;
-	height: 250px;
+
+.caterer
+{
+	transition-duration: .4s;
+	width: 22%;
+	height: 92%;
+	display: inline-block;
 }
-.caterer1{
-	margin-top: 15%;
-	float: left;
+.caterer img{
+	position: relative;
+	width: 97%;
+	height: 75%;
+	border-radius: 50%;
+	border: 5px solid #a6a6a6;
 }
-.caterer2{
-	margin-top: 15%;
-	float: right;
+.caterer h1{
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 3px 2px #a6a6a6;
+	color: #4d4d4d;
+}
+#BC{
+	margin-left: 18%;
+	margin-right: 9%;
+}
+a{
+	text-decoration: none;
+}
+#KC{
+	margin-right: 18%;
+	margin-left: 9%;
+	
 }
 .exit{
 	position: absolute;
 	top: 25px;
 	right: 45px;
-	font-size: 60px;
+	text-decoration: none;
+	color: #4d4d4d;
+	text-shadow: 3px 2px #a6a6a6;
 }
-/*menu ends*/
+.exit:hover{
+	color: #737373;
+}
+.caterer:hover h1{
+	color: #737373;
+}
+.caterer:hover {
+	transition-duration: .6s;
+	transform: scale(1.2);
+}
+.caterer:hover img {
+	transition-duration: .6s;
+	box-shadow: 5px 5px #a6a6a6;
+	border-style: groove;
+}
+#BC:hover+#KC{
+	transition-duration: .6s;
+	transform: scale(.8);
+	filter: blur(1.8px);
+}
+.hover1{
+	transition-duration: .6s;
+	transform: scale(.8);
+	filter: blur(1.8px);
+}/*menu ends*/
 
 /*SLIDER STARTS*/
 /*image animation*/
@@ -313,17 +359,17 @@
 
 	/*address bar starts*/
 footer{
-	background-color: grey;
+	background-color: rgb(236,236,236);
 	width: 100%;
-	height: 130px;
+	height: 80px;
 }
 .address-bar{
-	font-size: 40px;
+	font-size: 50px;
 	color: black;
 	text-align: center;
 }	
 .address-bar span{
-	font-family: "Knockout",serif;
+	font-family: "Minion",serif;
 	letter-spacing: 0.6em;
 	padding: 8px;
 }
@@ -331,10 +377,10 @@ footer{
 .elements-footer{
 	padding: 10px;
 	display: inline;
-	align-items: center;
 }
 .elements-footer i{
-	padding: 30px;
+	size: 30px;
+	padding: 15px;
 }
 
 	/*address bar ends*/ 
@@ -421,16 +467,17 @@ footer{
 /*.container_of_address_bar{
 	max-width: 100%;
 	margin: 0;
-	background-color: rgba(78, 35, 35, 0.658);
+	background:url(esg.jpg);
+	background-color: rgb(236,236,236);
 	font-size : 25px;
-	padding: 50px;
+	padding: 10px;
 
 }*/
 div.parallax1{
-	background:url(hostel.png)repeat center;
+	background:url(cafeteria2.jpg)repeat center;
 	background-size : cover ;
 	background-attachment:fixed;
-	height:500px;
+	height:550px;
 }
 
 ul{

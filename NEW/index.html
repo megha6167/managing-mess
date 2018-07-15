@@ -29,18 +29,24 @@
     </div>
     <!--menu-->
     <div id="myNav" class="menu">
-        <a href="javascript:void(0)" class="exit" onclick="outCat()">&cross;</a>
+        <a href="javascript:void(0)" class="exit" onclick="outCat()">&#10006;</a>
         <div class="content-menu">
-        <a href="#">
-        	<div class="caterer1">
-        	<img src="images/BC.jpg">
-        </div></a>
-        	<a  href="#">
-            	<div class="caterer2">
-        		<img src="images/KC.jpg">
-        		</div></a>		
+        	<div class="caterer" id="BC" >
+        		<a href="#" id="bc">
+        			<img src="images/BC.jpg">
+           			<h1>Bhopal caterers</h1>
+       			</a>
+        	</div>
+        
+            <div class="caterer" id="KC" onmouseover="mouseOver();" onmouseout="mouseOut();">
+            	<a  href="#" id="kc">
+        			<img src="images/KC.jpg">
+               		 <h1>Kanaka caterers</h1>
+               	</a>
+        	</div>		
         </div>
     </div>
+   
     <!--menu ends-->
  <!--top navigation bar ends here-->
     <!--just for the sake of scrolling-->
@@ -199,7 +205,7 @@ Lorem ipsum dolor dummy text sit amet, consectetur adipiscing elit, sed do eiusm
                             </p>
                         </li>
                         <li><p class="address_bar">
-                            TIME:<br><br>Breakfast: 8:00 AM-10:30 AM<br>Lunch:   12:00 PM-2:00 PM <br>Dinner:  8:00 PM-10:00 PM<br>
+                            TIME:<br><br>Breakfast&nbsp;: 8:00 AM-10:30 AM<br>Lunch&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:   12:00 PM-2:00 PM <br>Dinner&nbsp;&nbsp;&nbsp;&nbsp;     :  8:00 PM-10:00 PM<br>
                             </p>
                         </li>
                     </ul>
@@ -212,13 +218,14 @@ Lorem ipsum dolor dummy text sit amet, consectetur adipiscing elit, sed do eiusm
 <!--adding follow us link-->
 <footer>
 	<div class="address-bar">
-		<span>FOLLOW US AT<br></span>
+		<span></span>
 		<div class="elements-footer">
-		<i class="fab fa-facebook-square" style="color: black"></i>
-		<i class="fab fa-twitter-square" style="color: black"></i>
-		<i class="fab fa-linkedin" style="color: black"></i>
-		<i class="fab fa-github-square" style="color: black"></i>
-	</div>
+		<i class="fab fa-facebook-square" style="color: #873913"></i>
+		<i class="fab fa-twitter-square" style="color: #873913"></i>
+		<i class="fab fa-linkedin" style="color: #873913"></i>
+		<i class="fab fa-github-square" style="color: #873913"></i>
+		<i class="fab fa-google-plus-square" style="color: #873913"></i>
+		</div>
 	</div>
 </footer>
 
