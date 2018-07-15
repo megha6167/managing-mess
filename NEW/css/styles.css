@@ -358,17 +358,60 @@ a{
 
 
 	/*address bar starts*/
+        /*this is for safety purpose if boundary is needed*/
+/*.container_of_address_bar{
+	max-width: 100%;
+	margin: 0;
+	background:url(esg.jpg);
+	background-color: rgb(236,236,236);
+	font-size : 25px;
+	padding: 10px;
+
+}*/
+div.parallax1{
+	background:url(cafeteria2.jpg)repeat center;
+	background-size : cover ;
+	background-attachment:fixed;
+	height:550px;
+}
+
+ul{
+	list-style-type: none;
+}
+li{
+	backface-visibility: visible;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: inline-block;
+	font-style : oblique;
+	font-family : cursive;
+	padding: 50px;
+	margin:150px; 
+	block-size: 400px;
+	box-sizing:content-box;
+
+}
+
+.address_bar{
+	text-align:"center"; 
+	text-decoration-color:"whitesmoke";
+	color:white;
+}
+
+/*address bar ends*/
+
+
+	/*follow us links start*/
 footer{
 	background-color: rgb(236,236,236);
 	width: 100%;
 	height: 80px;
 }
-.address-bar{
+.follow-us{
 	font-size: 50px;
 	color: black;
 	text-align: center;
 }	
-.address-bar span{
+.follow-us span{
 	font-family: "Minion",serif;
 	letter-spacing: 0.6em;
 	padding: 8px;
@@ -383,7 +426,7 @@ footer{
 	padding: 15px;
 }
 
-	/*address bar ends*/ 
+	/*follow us links end*/ 
 
 
 /*Adding Media query*/
@@ -462,44 +505,3 @@ footer{
 	}
 }
 
-/*address bar starts*/
-        /*this is for safety purpose if boundary is needed*/
-/*.container_of_address_bar{
-	max-width: 100%;
-	margin: 0;
-	background:url(esg.jpg);
-	background-color: rgb(236,236,236);
-	font-size : 25px;
-	padding: 10px;
-
-}*/
-div.parallax1{
-	background:url(cafeteria2.jpg)repeat center;
-	background-size : cover ;
-	background-attachment:fixed;
-	height:550px;
-}
-
-ul{
-	list-style-type: none;
-}
-li{
-	backface-visibility: visible;
-	background-color: rgba(0, 0, 0, 0.5);
-	display: inline-block;
-	font-style : oblique;
-	font-family : cursive;
-	padding: 50px;
-	margin:150px; 
-	block-size: 400px;
-	box-sizing:content-box;
-
-}
-
-.address_bar{
-	text-align:"center"; 
-	text-decoration-color:"whitesmoke";
-	color:white;
-}
-
-/*address bar ends*/
