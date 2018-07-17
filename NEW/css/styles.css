@@ -365,7 +365,7 @@ a{
 			background:url(esg.jpg) no-repeat;
 			background-size:cover;
 			background-color: rgb(236,236,236);
-			font-size : 15px;
+			font-size : 20px;
 			padding: 5px;
 		
 		}
@@ -385,7 +385,6 @@ a{
 			background-size: cover;
 			display: inline-block;
 			font-style : oblique;
-			font-family : cursive;
 			padding: 20px;
 			margin:150px;
 		}

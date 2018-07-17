@@ -1,0 +1,15 @@
+.choose{
+	font-size: 100px;
+	color: #8e54e9;
+	font-family: "Sugarpunch DEMO";
+	text-align: center;
+	display: inline-block;
+	margin-top: 200px;
+}
+
+body{
+	background-image: url(buysell.jpg);
+	background-size: 100%;
+}
+
+
