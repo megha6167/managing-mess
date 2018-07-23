@@ -1,0 +1,38 @@
+.choose{
+	display: inline-block;
+	margin-top: 200px;
+	width: 83vw;
+}
+
+body{
+	background-image: url(buysell.jpg);
+	background-size: 100%;
+}
+.buy{
+	font-size: 150px;
+	color: white;
+	text-decoration: none;
+	font-family: "Sugarpunch DEMO";
+	text-align: center;
+	float: left;
+	margin-left: 19%;
+}
+.sell{
+	font-size: 150px;
+	color: white;
+	text-decoration: none;
+	font-family: "Sugarpunch DEMO";
+	text-align: center;
+	float: right;
+	
+}
+.buy:hover{
+	transition-duration: 0.5s;
+	transform: scale(1.3);
+	color: #cb7b78;
+}
+.sell:hover{
+	transition-duration: 0.5s;
+	transform: scale(1.3);
+	color: #368a7c;
+}
