@@ -207,12 +207,12 @@ a{
 #BC:hover+#KC{
 	transition-duration: .6s;
 	transform: scale(.8);
-	filter: blur(1.8px);
+	filter: blur(2.5px);
 }
 .hover1{
 	transition-duration: .6s;
 	transform: scale(.8);
-	filter: blur(1.8px);
+	filter: blur(2.5px);
 }/*menu ends*/
 
 /*SLIDER STARTS*/
@@ -367,13 +367,14 @@ a{
 			background-color: rgb(236,236,236);
 			font-size : 15px;
 			padding: 5px;
+			height: 400px;
 		
 		}
-		div.parallax1{
+		div .parallax1{
 			background:url(cafeteria2.jpg)repeat center;
 			background-size : cover ;
 			background-attachment:fixed;
-			height:550px;
+			height:380px;
 		}
 		
 		ul{
@@ -495,6 +496,38 @@ footer{
 	{
 		margin-top: 42px;
 	}
+
+	/*top navigation bar ends here*/
+
+	/*adress bar starts here*/
+	.container_of_address_bar{
+		height: 450px;
+	}
+	div .parallax1{
+		height: 435px;
+	}
+	
+	li{
+			display: block;
+			font-style : oblique;
+			font-family : cursive;
+			height: 150px;
+			padding: 10px;
+			width: 100%;
+			margin-left: 0;
+		}
+		
+		
+		.address_bar{
+			align:center;
+			text-align:"center"; 
+			text-decoration-color:"whitesmoke";
+			color:white;
+			inline-size:300px;
+			block-size: 100px;
+		
+		}
+
 }
 
 /*media query for height*/
