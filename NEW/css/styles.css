@@ -5,18 +5,18 @@
 }
 .header_without_scroll
 {
-	height: 110px;
+	height: 2.5cm;
 	width: 100%;
 	position: relative;
 	transition-duration: 1s;
 }
 .header_with_scroll
 {
-	height: 85px;
+	height: 2cm;
 	width: 100%;
 	position: fixed;
 	top:0;
-	border-bottom:2px groove #ececeb;
+	border-bottom:1px groove #ececeb;
 	transition-duration: 1s;
 }
 
@@ -26,13 +26,13 @@
 	content: " ";
 	transition-duration: 1s;
 	background-image: url("logo_background_grey.jpg");
-	background-size: 100% 110px;
+	background-size: 100% 2.5cm;
 	opacity: 1;
 	top: 0px;
 	left: 0px;
 	position: absolute;
 	width: 100%;
-	height: 110px;
+	height: 2.5cm;
 	z-index: -1;
 }
 .header_with_scroll::after
@@ -40,13 +40,13 @@
 	content: " ";
 	background-image: url("esg.jpg");
 	transition-duration: 1s;
-	background-size: 100% 85px;
+	background-size: 100% 2cm;
 	opacity: .80;
 	top: 0px;
 	left: 0px;
 	position: absolute;
 	width: 100%;
-	height: 85px;
+	height: 2cm;
 	z-index: -1;
 }
 /*transparent bckground ends here*/
@@ -54,18 +54,19 @@
 .logo_without_scroll img
 {
 	transition-duration: 1.5s;
-	width: 125px;
-	height: 125px;
-	margin-left: 20px;
+	width: 2.7cm;
+	height: 2.7cm;
+	margin-top: .1cm;
+	margin-left: .9cm;
 	border-radius: 50%;
 }
 .logo_with_scroll img
 {
 	transition-duration: 1.5s;
-	width: 84px;
-	height: 83px;
-	margin-top: 3px;
-	margin-left: 25px;
+	width: 1.95cm;
+	height: 1.95cm;
+	margin-top: .05cm;
+	margin-left: .9cm;
 	border-radius: 50%;
 }
 #logo:hover img{
@@ -76,29 +77,29 @@
 /*logo ends here*/
 #nav_icon{
 	float: right;
-	margin-right: 80px;
+	margin-right: 1.5cm;
 	text-decoration: none; 
 }
 #nav_icon:hover span{
 	transition-duration: .3s;
-	margin-right: 8px;
-	width: 11px;
-	height: 9px;
+	margin-right: .25cm;
+	width: .27cm;
+	height: .25cm;
 }
 .nav_icon_without_scroll
 {
-	margin-top: 80px;
+	margin-top: 2cm;
 }
 .nav_icon_with_scroll
 {
-	margin-top: 60px;
+	margin-top:	1.5cm;
 }
 .nav_icon_without_scroll span
 {
 	transition-duration: .3s;
-	height: 10px;
-  	width: 10px;
-  	margin-left: 4px;
+	height: .27cm;
+  	width: .27cm;
+  	margin-left: .2cm;
   	background-color: rgb(126, 60, 27);
   	border-radius: 50%;
   	display: inline-block;
@@ -106,9 +107,9 @@
 .nav_icon_with_scroll span
 {
 	transition-duration: .3s;
-	height: 10px;
-  	width: 10px;
-  	margin-left: 4px;
+	height: .25cm;
+  	width: .25cm;
+  	margin-left: .2cm;
   	background-color: #ececec;
   	border-radius: 50%;
   	display: inline-block;
@@ -220,7 +221,7 @@ a{
 #container-slider { 
 	margin-top: 0px;
 	width: 100%;
-	height: 600px;
+	height: 13.5cm;
 	overflow: hidden;
 	box-sizing: border-box;
 	border-right: 5px solid #ececec;
@@ -229,7 +230,7 @@ a{
 }
 .slider{
 	width:600%;		
-	height: 600px;
+	height: 13.5cm;
 	z-index: -6;/*edir*/
 	position: relative;
 	animation-name: slider-animation;
@@ -333,8 +334,8 @@ a{
 	font-family: "Lobster", cursive;
 	font-size: 40px;
 	float: bottom;
-	margin-top: 400px;
-    margin-left: 4vw;
+	margin-top: 10cm;
+    margin-left: 1cm;
     display: show;
 	color: rgba(256,256,256,1);
 	animation: text_image 8s infinite;
@@ -344,7 +345,7 @@ a{
 	content: " ";
 	background-image: url("logo_background_brown.jpg");
 	transition-duration: 1s;
-	background-size: 100% 60px;
+	background-size: 100% 1.5cm;
 	color: #ececec;
 	opacity: .7;
 	top: 5px;
@@ -440,35 +441,35 @@ footer{
 	/*TOP navigation bar starts here*/
 	.header_without_scroll
 	{
-		height: 70px;
+		height: 1.9cm;
 	}
 	.header_with_scroll
 	{
-		height: 55px;
+		height: 1.6cm;
 	}
 	/*For inserting a transparent background*/
 	.header_without_scroll::after 
 	{
-		background-size: 100% 75px;
-		height: 75px;
+		background-size: 100% 1.9cm;
+		height: 1.9cm;
 	}
 	.header_with_scroll::after
 	{
-		background-size: 100% 63px;
-		height: 63px;
+		background-size: 100% 1.6cm;
+		height: 1.6cm;
 	}
 	/*transparent bckground ends here*/
 	/*Logo starts here*/
 	.logo_without_scroll img
 	{
-		width: 84px;
-		height: 84px;
+		width: 2cm;
+		height: 2cm;
 		margin-left: 4px;
 	}
 	.logo_with_scroll img
 	{
-		width: 61px;
-		height: 61px;
+		width: 1.55cm;
+		height: 1.55cm;
 		margin-top: 2px;
 		margin-left: 5px;
 	}
@@ -480,21 +481,32 @@ footer{
 	/*logo ends here*/
 	#nav_icon
 	{
-		margin-right: 9px;
+		margin-right: .5cm;
 	}
 	#nav_icon:hover span
 	{	
 		margin-right: 6px;
-		width: 11px;
-		height: 9px;
+		width: .23cm;
+		height: .22cm;
 	}
+	.nav_icon_without_scroll span
+	{
+		height: .23cm;
+  		width: .23cm;
+  	}
+	.nav_icon_with_scroll span
+	{
+	height: .23cm;
+  	width: .23cm;
+  	}
+
 	.nav_icon_without_scroll
 	{
-		margin-top: 50px;
+		margin-top: 1.4cm;
 	}
 	.nav_icon_with_scroll
 	{
-		margin-top: 42px;
+		margin-top: 1.1cm;
 	}
 
 	/*top navigation bar ends here*/
