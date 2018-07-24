@@ -359,7 +359,6 @@ a{
 /*address bar starts*/
         /*this is for safety purpose if boundary is needed*/
 		.container_of_address_bar{
-			text-align:center;
 			max-width: 100%;
 			margin: 0;
 			background:url(esg.jpg) no-repeat;
@@ -376,29 +375,20 @@ a{
 			background-attachment:fixed;
 			height:380px;
 		}
-		
-		ul{
-			list-style-type: none;
-			
-		}
-		li{
+		.address-bar{
 			background-color: rgba(0, 0, 0, 0.5);
-			background-size: cover;
 			display: inline-block;
-			font-style : oblique;
-			padding: 20px 2% 20px 2% ;
-			margin: 100px 10% 40px 5%;
+			height: 170px;
+			width: 32%;
+			text-align: center;
+			margin: 90px 4% 80px 10%;
+			min-width: 310px;
 		}
-		
-		
-		.address_bar{
-			align:center;
-			text-align:"center"; 
-			text-decoration-color:"whitesmoke";
-			color:white;
-			inline-size:300px;
-			block-size: 100px;
-		
+		pre{
+			font-style: oblique;
+			text-align: "center"; 
+			text-decoration-color: "whitesmoke";
+			color: white;
 		}
 		
 		/*address bar ends*/
@@ -434,7 +424,7 @@ footer{
 
 
 /*Adding Media query*/
-@media screen and (max-width: 800px)
+@media screen and (max-width: 820px)
 {
 	/*TOP navigation bar starts here*/
 	.header_without_scroll
@@ -509,38 +499,31 @@ footer{
 		div .parallax1{
 			height: 480px;
 		}
-		li{
-			 padding-right: 3%;
-			 padding-left: 3%;
-			 padding-top: 3px;
-			 padding-bottom: 3px;
-			 margin-top: 40px;
-			 margin-left: 10%;
-			 margin-right: 15%;
-			 width: 60%;
-			 text-align: center;
-		}
-		
-		
-		
-		
-
-		
-		
-		.address_bar{
+		.address-bar{
+			height: 170px;
 			align-self: center;
-			text-align:"center"; 
-			text-decoration-color:"whitesmoke";
-			color: white;
-			width: 70%;
-			height: 120px;
-		
+			width: 60%;
+			margin: 40px 0% 40px 20%;
+			min-width: 210px;
 		}
-		
-		/*address bar ends*/
-
-	
 }
+@media screen and (max-width: 350px)
+{	
+		.container_of_address_bar{
+			font-size : 12px;
+			height: 420px;
+		}
+		div .parallax1{
+			height: 410px;
+		}
+		.address-bar{
+			height: 110px;
+			align-self: center;
+			margin: 60px 5% 40px 5%;
+			width: 90%;
+		}
+}
+
 
 /*media query for height*/
 @media screen and (min-height: 450px){
