@@ -421,6 +421,8 @@ footer{
 }
 
 .elements-footer{
+	display: flex;
+	flex-wrap: wrap;
 	padding: 10px;
 	display: inline;
 }
@@ -494,6 +496,33 @@ footer{
 	{
 		margin-top: 42px;
 	}
+}
+@media screen and (max-width: 900px)
+{	
+	/*footer{
+		height: 5%;
+	}*/
+	.follow-us{
+		font-size: 50px;
+		color: black;
+		text-align: center;
+	}	
+	.follow-us span{
+		font-family: "Minion",serif;
+		letter-spacing: 0.6em;
+		padding: 8px;
+	}
+
+	.elements-footer{
+		display: flex;
+		flex-wrap: wrap;
+		padding: 10px;
+		display: inline;
+	}
+	.elements-footer i{
+		size: 30px;
+		padding: 40px;
+	}	
 }
 
 /*media query for height*/
