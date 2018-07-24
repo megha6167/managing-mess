@@ -381,13 +381,21 @@ a{
 			height: 170px;
 			width: 32%;
 			text-align: center;
-			margin: 90px 4% 80px 10%;
+			margin-top: 90px;
+			margin-bottom: 80px;
 			min-width: 310px;
+		}
+		#address{
+			margin-left: 10%;
+		}
+		#time{
+			float:right;
+			margin-right: 10%;
 		}
 		pre{
 			font-style: oblique;
 			text-align: "center"; 
-			text-decoration-color: "whitesmoke";
+			text-decoration-color: "-whitesmoke";
 			color: white;
 		}
 		
@@ -499,13 +507,22 @@ footer{
 		div .parallax1{
 			height: 480px;
 		}
+		#address{
+			margin-left: 20%;
+		}
+		#time{
+			float: left;
+			margin-left: 20%;
+		}
 		.address-bar{
-			height: 170px;
+			height: 150px;
 			align-self: center;
 			width: 60%;
 			margin: 40px 0% 40px 20%;
 			min-width: 210px;
 		}
+
+
 }
 @media screen and (max-width: 350px)
 {	
@@ -519,8 +536,16 @@ footer{
 		.address-bar{
 			height: 110px;
 			align-self: center;
-			margin: 60px 5% 40px 5%;
+			margin-top: 60px;
+			margin-bottom: 40px;
 			width: 90%;
+			min-width: 100px;
+		}
+		#address{
+			margin-left: 5%;
+		}
+		#time{
+			margin-left: 5%;
 		}
 }
 
