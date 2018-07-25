@@ -527,7 +527,7 @@ footer{
 @media screen and (max-width: 350px)
 {	
 		.container_of_address_bar{
-			font-size : 12px;
+			font-size : 13.5px;
 			height: 420px;
 		}
 		div .parallax1{
