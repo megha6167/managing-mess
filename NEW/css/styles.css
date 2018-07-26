@@ -145,8 +145,7 @@
 	height: 70%;
 	position: absolute;
 	top: 20%;
-	display: inline;
-	background-color: black;	
+	display: inline;	
 }
 
 .caterer
@@ -155,8 +154,6 @@
 	width: 22%;
 	height: 92%;
 	display: inline-block;
-	background-color: red;
-	
 }
 .caterer img{
 	position: relative;
@@ -164,12 +161,12 @@
 	height: 75%;
 	border-radius: 50%;
 	border: 5px solid #a6a6a6;
-	background-color: red;
 }
 .caterer h1{
 	position: relative;
 	text-align: center;
 	text-decoration: none;
+	font-size: 40px;
 	text-shadow: 3px 2px #a6a6a6;
 	color: #4d4d4d;
 }
@@ -187,8 +184,9 @@ a{
 }
 .exit{
 	position: absolute;
-	top: 25px;
-	right: 45px;
+	font-size: 40px;
+	top: 15px;
+	right: 35px;
 	text-decoration: none;
 	color: #4d4d4d;
 	text-shadow: 3px 2px #a6a6a6;
@@ -501,53 +499,32 @@ footer{
 	}
 
 	/*top navigation bar ends here*/
-	/*fullscreen navigation starts here*/
+	/*Fullscreen navigation starts here*/
 	.caterer
-{
-	transition-duration: .4s;
-	width: 32%;
-	height: 92%;
-	display: inline-block;
-	background-color: red;
-	
-}
-.caterer img{
-	position: relative;
-	width: 97%;
-	height: 75%;
-	border-radius: 50%;
-	border: 5px solid #a6a6a6;
-	background-color: red;
-}
-#BC{
-	margin-left: 11%;
-	margin-right: 6%;
-}
-a{
-	text-decoration: none;
-}
-#KC{
-	margin-right: 11%;
-	margin-left: 6%;
-	
-}
-
-
+	{
+		width: 32%;
+		height: 92%;
+	}
+	#BC{
+		margin-left: 11%;
+		margin-right: 6%;
+	}
+	#KC{
+		margin-right: 11%;
+		margin-left: 6%;
+	}
 	.caterer h1{
-			font-size: 30px;
-			text-shadow: 2px 2px #a6a6a6;
-	
-		}
-		.caterer img{
-			width: 97%;
-			height: 70%;
-			border-radius: 50%;
-			border: 3px solid #a6a6a6;
-			background-color: red;
-		}
-		.caterer:hover img {
+		font-size: 30px;
+		text-shadow: 2px 2px #a6a6a6;
+	}
+	.caterer img{
+		width: 97%;
+		height: 75%;
+		border: 3px solid #a6a6a6;
+	}
+	.caterer:hover img {
 		box-shadow: 3px 4px #a6a6a6;
-		}
+	}
 	/*full screen navigation ends here*/
 		/*address bar starts*/
         /*this is for safety purpose if boundary is needed*/
@@ -595,36 +572,24 @@ a{
 		border: 2px solid #a6a6a6;
 	}
 	.caterer h1{
-	top: -14px;
-	font-size: 24px;
-	text-shadow: 1px 1px #a6a6a6;
+		top: -14px;
+		font-size: 24px;
+		text-shadow: 1px 1px #a6a6a6;
 	}
 	#BC, #KC{
 		margin-left: 15%;
 	}
 	.exit{
-		top: 20px;
-		right: 30px;
 		color: #4d4d4d;
 		text-shadow: 1px 1px #a6a6a6;
 	}
 	.caterer:hover {
-	transition-duration: .6s;
-	transform: scale(1.1);
-}
-	.caterer:hover img {
-	box-shadow: 2px 3px #a6a6a6;
+		transform: scale(1.1);
 	}
-	#BC:hover+#KC{
-	transition-duration: .6s;
-	transform: scale(.8);
-	filter: blur(2.5px);
-}
-.hover1{
-	transition-duration: .6s;
-	transform: scale(.8);
-	filter: blur(2.5px);
-}/*menu ends*/
+	.caterer:hover img {
+		box-shadow: 2px 3px #a6a6a6;
+	}
+	/*menu ends*/
 		.container_of_address_bar{
 			font-size : 13.5px;
 			height: 420px;
@@ -678,14 +643,20 @@ a{
 
 
 /*media query for height*/
-@media screen and (min-height: 450px){
+@media screen and (max-height: 450px){
 	.menu a{
 		font-size: 20px;
 	}
 	.menu .exit{
-		font-size: 40px;
-		top: 15px;
-		right: 35px;
+		top: 20px;
+		right: 30px;
+		
+	}
+	.caterer img{
+	height: 70%;
+	}
+	.caterer h1{
+		font-size: 20px;
 	}
 }
 
