@@ -145,7 +145,8 @@
 	height: 70%;
 	position: absolute;
 	top: 20%;
-	display: inline;	
+	display: inline;
+	background-color: black;	
 }
 
 .caterer
@@ -154,6 +155,8 @@
 	width: 22%;
 	height: 92%;
 	display: inline-block;
+	background-color: red;
+	
 }
 .caterer img{
 	position: relative;
@@ -161,6 +164,7 @@
 	height: 75%;
 	border-radius: 50%;
 	border: 5px solid #a6a6a6;
+	background-color: red;
 }
 .caterer h1{
 	position: relative;
@@ -273,7 +277,7 @@ a{
 }
 .slider img{
 	width: 16.66666%;
-	z-index: -6;	/*change it and see the effect*/
+	z--index: -6;	/*change it and see the effect*/
 	height: 600px;       /*also this*/
 	float: left;
 }
@@ -497,8 +501,24 @@ footer{
 	}
 
 	/*top navigation bar ends here*/
-
-	/*address bar starts*/
+	/*fullscreen navigation starts here*/
+	.caterer h1{
+			font-size: 24px;
+			text-shadow: 1px 1px #a6a6a6;
+	
+		}
+		.caterer img{
+			width: 97%;
+			height: 70%;
+			border-radius: 50%;
+			border: 3px solid #a6a6a6;
+			background-color: red;
+		}
+		.caterer:hover img {
+		box-shadow: 2px 3px #a6a6a6;
+		}
+	/*full screen navigation ends here*/
+		/*address bar starts*/
         /*this is for safety purpose if boundary is needed*/
 		.container_of_address_bar{
 			font-size : 14px;
@@ -523,11 +543,84 @@ footer{
 			margin: 40px 0% 40px 20%;
 			min-width: 210px;
 		}
-
-
 }
+/*additional media queries to handle address bar*/
 @media screen and (max-width: 350px)
 {	
+		.content-menu
+	{
+		height: 87%;
+		top: 12%;
+		background-color: rgb(0,0,0,0);
+	}
+	.caterer
+	{
+			width: 60%;
+	height: 92%;
+	display: inline-block;
+	background-color: red;
+	
+}
+.caterer img{
+	position: relative;
+	width: 97%;
+	height: 75%;
+	border-radius: 50%;
+	border: 5px solid #a6a6a6;
+	background-color: red;
+}
+.caterer h1{
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 3px 2px #a6a6a6;
+	color: #4d4d4d;
+}
+#BC{
+	margin-left: 18%;
+	margin-right: 9%;
+}
+a{
+	text-decoration: none;
+}
+#KC{
+	margin-right: 18%;
+	margin-left: 9%;
+	
+}
+.exit{
+	position: absolute;
+	top: 25px;
+	right: 45px;
+	text-decoration: none;
+	color: #4d4d4d;
+	text-shadow: 3px 2px #a6a6a6;
+}
+.exit:hover{
+	color: #737373;
+}
+.caterer:hover h1{
+	color: #737373;
+}
+.caterer:hover {
+	transition-duration: .6s;
+	transform: scale(1.2);
+}
+.caterer:hover img {
+	transition-duration: .6s;
+	box-shadow: 5px 5px #a6a6a6;
+	border-style: groove;
+}
+#BC:hover+#KC{
+	transition-duration: .6s;
+	transform: scale(.8);
+	filter: blur(2.5px);
+}
+.hover1{
+	transition-duration: .6s;
+	transform: scale(.8);
+	filter: blur(2.5px);
+}/*menu ends*/
 		.container_of_address_bar{
 			font-size : 13.5px;
 			height: 420px;
@@ -577,6 +670,7 @@ footer{
 		padding: 40px;
 	}	
 }
+/*additional meadia query ends here*/
 
 
 /*media query for height*/
