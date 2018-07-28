@@ -138,17 +138,13 @@ nav ul li a:hover{
 	transition-duration: 0.5s;
 	transform: scale(1.3);
 	color: #873913;
-<<<<<<< HEAD
 }
-||||||| merged common ancestors
-}
-=======
-}
+
 #about_us_content{
 	width: 100%;
-	margin-top: 75vh;
+	margin-top: 30%;
 	position: relative;
 	font-size: 25px;
 
 }
->>>>>>> 8119321ffd4777f98a3c89477d760a2f06c7083f
+
