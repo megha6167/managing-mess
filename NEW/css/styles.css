@@ -409,7 +409,6 @@ a{
 footer{
 	background-color: rgb(236,236,236);
 	width: 100%;
-	width: 100vw;
 	height: 15vh;
 	overflow: hidden;
 }
@@ -426,10 +425,12 @@ footer{
 .elements-footer{
 	padding: 0.5vw;
 	display: inline;
+margin-left: 0;
 }
 .elements-footer i{
 	size: 6vh;
 	padding: 2vw;
+
 }
 
 	/*follow us links end*/ 
