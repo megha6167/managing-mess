@@ -74,7 +74,7 @@ nav ul li a:hover{
 #list {
 	border: 4px groove #001a33;
 	font-size: 10px;
-	height: 600px;
+	height: 100vh;
 	float: left;
 	width: 30%;
 	overflow: hidden;
@@ -101,3 +101,25 @@ nav ul li a:hover{
  .odd{
  	background-color:  #b3b3b3;
  }
+.icons{
+	margin: 0 0 0 400px;
+	font-family: "SugarpunchDEMO";
+	font-size: 60px;
+	color: blue;
+	letter-spacing: 0.5em;	
+	text-decoration: none;
+	position: relative; 	
+	
+}
+.buy{
+		text-decoration: none;
+	padding: 20px;
+}
+.icons a:hover{
+	transform: scale(1.6);
+}
+
+.sell{
+	text-decoration: none;
+	padding: 20px;
+}

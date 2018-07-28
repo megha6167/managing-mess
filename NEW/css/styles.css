@@ -409,11 +409,10 @@ a{
 footer{
 	background-color: rgb(236,236,236);
 	width: 100vw;
-	height: 4vh;
+	height: 15vh;
 }
 .follow-us{
-	font-size: 50px;
-	color: black;
+	font-size: 6vh;
 	text-align: center;
 }	
 .follow-us span{
@@ -423,14 +422,12 @@ footer{
 }
 
 .elements-footer{
-	display: flex;
-	flex-wrap: wrap;
-	padding: 10px;
+	padding: 0.5vw;
 	display: inline;
 }
 .elements-footer i{
-	size: 30px;
-	padding: 15px;
+	size: 6vh;
+	padding: 2vw;
 }
 
 	/*follow us links end*/ 
@@ -617,7 +614,7 @@ footer{
 {	
 	/*footer{
 		height: 5%;
-	}*/
+	}
 	.follow-us{
 		font-size: 5vw;
 		color: black;
@@ -627,16 +624,16 @@ footer{
 		font-family: "Minion",serif;
 		letter-spacing: 0.6em;
 		padding: 8px;
-	}
+	}*/
 
-	.elements-footer{
+	/*.elements-footer{
 		padding: 10px;
 		display: inline;
 	}
 	.elements-footer i{
-		size: 5vw;
-		padding: 3vw;
-	}	
+		size: 4%;
+		padding: 3%;
+	}	*/	
 	/*slider animation*/
 	#container-slider { 
 	margin-top: 0px;
@@ -693,7 +690,7 @@ footer{
 		height: 5%;
 	}*/
 	.follow-us{
-		font-size: 50px;
+		font-size: 35px;
 		color: black;
 		text-align: center;
 	}	
@@ -710,8 +707,8 @@ footer{
 	}
 	.elements-footer i{
 		word-spacing: 10vw;
-		size: 5.5vw;
-		padding: 4vw;
+		size: 5%
+		padding: 4%;
 	}	
 }
 @media screen and (max-width: 400px){
@@ -765,8 +762,33 @@ footer{
 		z-index: -1;
 	}
 }
-/*additional meadia query ends here*/
+@media screen and (max-width: 200px)
+{	
+	/*footer{
+		height: 5%;
+	}*/
+	.follow-us{
+		font-size: 5px;
+		color: black;
+		text-align: center;
+	}	
+	.follow-us span{
+		font-family: "Minion",serif;
+		letter-spacing: 0.2em;	
+	}
 
+	.elements-footer{
+		padding: 0px;
+		display: inline;
+		width: 100vw;
+	}
+	.elements-footer i{
+		word-spacing: 5vw;
+		size: 2%
+		padding: 1%;
+	}	
+/*additional meadia query ends here*/
+}
 
 /*media query for height*/
 @media screen and (max-height: 450px){
