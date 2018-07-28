@@ -612,7 +612,7 @@ footer{
 }
 @media screen and (max-width: 900px)
 {	
-	/*footer{
+    footer{
 		height: 5%;
 	}
 	.follow-us{
@@ -624,16 +624,15 @@ footer{
 		font-family: "Minion",serif;
 		letter-spacing: 0.6em;
 		padding: 8px;
-	}*/
-
-	/*.elements-footer{
+	}
+    .elements-footer{
 		padding: 10px;
 		display: inline;
 	}
 	.elements-footer i{
 		size: 4%;
 		padding: 3%;
-	}	*/	
+	}	
 	/*slider animation*/
 	#container-slider { 
 	margin-top: 0px;
@@ -686,7 +685,7 @@ footer{
 }
 @media screen and (max-width: 600px)
 {	
-	/*footer{
+    /*	footer{
 		height: 5%;
 	}*/
 	.follow-us{
@@ -780,12 +779,11 @@ footer{
 	.elements-footer{
 		padding: 0px;
 		display: inline;
-		width: 100vw;
+		width: 100%;
 	}
 	.elements-footer i{
 		word-spacing: 5vw;
-		size: 2%
-		padding: 1%;
+		size: 1%;	
 	}	
 /*additional meadia query ends here*/
 }
