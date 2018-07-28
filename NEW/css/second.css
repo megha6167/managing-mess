@@ -3,21 +3,22 @@
 
 header{
 	width: 100%;
-	height: 130px;
+	height: 15vh;
 	overflow: hidden;
 	box-shadow: rgb(128, 128, 128) 0px 0px 8px 0px;
 }
 #header_inner{
-	height: 100%;
-	background: linear-gradient(to right, #0d0d0d , #00334d ,#00aaff);
+	height: 15vh;
+	background: linear-gradient(to left, #001a33 ,  #0073e6 ,#80bfff);
 }
 #logo img
 {
 	transition-duration: 1.5s;
-	width: 125px;
-	height: 125px;
+	width: 15vh;
+	height: 15vh;
 	margin-left: 20px;
 	border-radius: 50%;
+	box-shadow: white 0px 0px 8px 0px;
 }
 #logo:hover img{
 	transition-duration: .4s;
@@ -74,7 +75,7 @@ nav ul li a:hover{
 #list {
 	border: 4px groove #001a33;
 	font-size: 10px;
-	height: 600px;
+	height: 85vh;
 	float: left;
 	width: 30%;
 	overflow: hidden;
@@ -83,7 +84,7 @@ nav ul li a:hover{
 }
  #list ul{
  	list-style-type: none;
- 	height: 600px;
+ 	height: 85vh;
  	width: 100%;
  	float: left;
  	margin: 0;
@@ -93,7 +94,7 @@ nav ul li a:hover{
  	left: -40px;
  	font-size: 27px;
  	width: 100%;
- 	height: 40px;
+ 	height: 10vh;
  }
  #list ul .eve{
  	background-color: #e6e6e6;
