@@ -274,10 +274,11 @@ a{
 	}
 }
 .slider img{
-	width: 16.66666%;
-	z--index: -6;	/*change it and see the effect*/
-	height: 600px;       /*also this*/
-	float: left;
+	    width: 16.66666%;
+		z--index: -6;	/*change it and see the effect*/
+		height: 600px;       /*also this*/
+		float: left;
+	}
 }
 /*image animation ends*/
 /*text animation*/
@@ -407,8 +408,8 @@ a{
 	/*follow us links start*/
 footer{
 	background-color: rgb(236,236,236);
-	width: 100%;
-	height: 80px;
+	width: 100vw;
+	height: 4vh;
 }
 .follow-us{
 	font-size: 50px;
@@ -618,6 +619,80 @@ footer{
 		height: 5%;
 	}*/
 	.follow-us{
+		font-size: 5vw;
+		color: black;
+		text-align: center;
+	}	
+	.follow-us span{
+		font-family: "Minion",serif;
+		letter-spacing: 0.6em;
+		padding: 8px;
+	}
+
+	.elements-footer{
+		padding: 10px;
+		display: inline;
+	}
+	.elements-footer i{
+		size: 5vw;
+		padding: 3vw;
+	}	
+	/*slider animation*/
+	#container-slider { 
+	margin-top: 0px;
+	width: 100%;
+	height: 400px;
+	overflow: hidden;
+	box-sizing: border-box;
+	}
+	.slider{
+		width:600%;		
+		height: 400px;
+		z-index: -6;/*edir*/
+	}
+	.slider img{
+		width: 16.66666%;
+		z--index: -6;	/*change it and see the effect*/
+		height: 400px;       /*also this*/
+		float: left;
+	}
+	/*text*/
+	#text-image{
+	z-index: 1;
+	padding: 10px;
+	position: absolute;
+	color: transparent;
+	font-family: "Lobster", cursive;
+	font-size: 20px;
+	float: bottom;
+	margin-top: 300px;
+    margin-left: 4vw;
+    display: show;
+	color: rgba(256,256,256,1);
+	animation: text_image 8s infinite;
+	}
+	#text-image::after
+	{
+		content: " ";
+		background-image: url("logo_background_brown.jpg");
+		transition-duration: 1s;
+		background-size: 100% 60px;
+		color: #ececec;
+		opacity: .7;
+		top: 5px;
+		left: 0px;
+		position: absolute;
+		width: 100%;
+		height: 40px;
+		z-index: -1;
+	}
+}
+@media screen and (max-width: 600px)
+{	
+	/*footer{
+		height: 5%;
+	}*/
+	.follow-us{
 		font-size: 50px;
 		color: black;
 		text-align: center;
@@ -629,15 +704,66 @@ footer{
 	}
 
 	.elements-footer{
-		display: flex;
-		flex-wrap: wrap;
 		padding: 10px;
-		display: inline;
+		display: inline-block;
+		width: 100vw;
 	}
 	.elements-footer i{
-		size: 30px;
-		padding: 40px;
+		word-spacing: 10vw;
+		size: 5.5vw;
+		padding: 4vw;
 	}	
+}
+@media screen and (max-width: 400px){
+	/*slider animation*/
+	#container-slider { 
+	margin-top: 0px;
+	width: 100%;
+	height: 200px;
+	overflow: hidden;
+	box-sizing: border-box;
+	}
+	.slider{
+		width:600%;		
+		height: 200px;
+		z-index: -6;/*edir*/
+	}
+	.slider img{
+		width: 16.66666%;
+		z--index: -6;	/*change it and see the effect*/
+		height: 200px;       /*also this*/
+		float: left;
+	}
+	/*text*/
+	#text-image{
+	z-index: 1;
+	padding: 10px;
+	position: absolute;
+	color: transparent;
+	font-family: "Lobster", cursive;
+	font-size: 15px;
+	float: bottom;
+	margin-top: 120px;
+    margin-left: 4vw;
+    display: show;
+	color: rgba(256,256,256,1);
+	animation: text_image 8s infinite;
+	}
+	#text-image::after
+	{
+		content: " ";
+		background-image: url("logo_background_brown.jpg");
+		transition-duration: 1s;
+		background-size: 100% 60px;
+		color: #ececec;
+		opacity: .7;
+		top: 5px;
+		left: 0px;
+		position: absolute;
+		width: 100%;
+		height: 25px;
+		z-index: -1;
+	}
 }
 /*additional meadia query ends here*/
 
