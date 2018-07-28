@@ -8,8 +8,8 @@ header{
 	box-shadow: rgb(128, 128, 128) 0px 0px 8px 0px;
 }
 #header_inner{
-	height: 15vh;
-	background: linear-gradient(to left, #001a33 ,  #0073e6 ,#80bfff);
+	height: 100%;
+	background: rgb(236,236,236);
 }
 #logo img
 {
@@ -50,7 +50,7 @@ nav ul li{
 	padding: 10px;
 }
 nav ul li a{
-	color: #cccccc;
+	color: #873913;
 	text-decoration: none;
 }
 nav ul li a:hover{
@@ -65,9 +65,9 @@ nav ul li a:hover{
 		border :;
 		margin-top: 18%;
 		left: 0;
-		background-color: #1c262f;
+		background-color: rgb(236,236,236);
 		font-size: 30px;
-		color: #cccccc;
+		color: #873913;
 		box-shadow: rgb(128, 128, 128) 0px 0px 8px 0px;
 		padding: 20px 8px 20px 3px;
 		margin-left: 0;
@@ -103,24 +103,37 @@ nav ul li a:hover{
  	background-color:  #b3b3b3;
  }
 .icons{
-	margin: 0 0 0 400px;
-	font-family: "SugarpunchDEMO";
-	font-size: 60px;
-	color: blue;
+	margin: 0 0 0 250px;
 	letter-spacing: 0.5em;	
 	text-decoration: none;
 	position: relative; 	
+	}
+.buy{
+	font-size: 6vw;
+	color: #873913;
+	text-decoration: none;
+	font-family: "Sugarpunch DEMO";
+	text-align: center;
+	float: left;
+	margin-left: 20%;
+}
+.sell{
+	font-size: 6vw;
+	color: #873913;
+	text-decoration: none;
+	font-family: "Sugarpunch DEMO";
+	text-align: center;
+	float: right;
+	margin-right: 20%;
 	
 }
-.buy{
-		text-decoration: none;
-	padding: 20px;
+.buy:hover{
+	transition-duration: 0.5s;
+	transform: scale(1.3);
+	color: #873913;
 }
-.icons a:hover{
-	transform: scale(1.6);
-}
-
-.sell{
-	text-decoration: none;
-	padding: 20px;
+.sell:hover{
+	transition-duration: 0.5s;
+	transform: scale(1.3);
+	color: #873913;
 }
