@@ -603,6 +603,7 @@ margin-left: 0;
 		/*address bar starts*/
         /*this is for safety purpose if boundary is needed*/
 		.container_of_address_bar{
+			font-family: 'Boogaloo', cursive;
 			font-size : 14px;
 			padding: 3px;
 			height: 500px;
