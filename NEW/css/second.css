@@ -55,14 +55,14 @@ nav{
     position: relative;
     left: 1px;
     padding: 2px 0 2px 1px;
-    background-color: #873913;
+    background-color: #404040;
     margin: 4px 0;
     transition: 0.4s;
     z-index: 20;
     text-align: center;
 }
 nav:hover #container{
-   border: 1px dotted #873913;
+   border: 1px dotted #404040;
    border-radius: 10%;
 }
 nav: hover>.bar1{
@@ -261,7 +261,7 @@ nav ul li a:hover{
 		border-radius: 8%;
 		text-align: center;
 		z-index: 1000;
-		border: 2px groove #873913;
+		border: 2px groove #404040;
 		right :0;
 		margin-right: 0;
 		background-color: rgb(236,236,236);
@@ -315,8 +315,8 @@ nav ul{
 	#list_of_sellers { 
 		font-size: 28px;
 		max-width: 15%;
-		color: #873913;
-		box-shadow: #873913 0px 0px 8px 0px;
+		color: #404040;
+		box-shadow: #404040 0px 0px 8px 0px;
 		padding: 20px 4px 20px 4px;
 		margin-left: 0;
 }
