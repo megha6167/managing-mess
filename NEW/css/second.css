@@ -1,4 +1,4 @@
-
+	
 /*TOP navigation bar starts here*/
 body{
 	background: linear-gradient(to right , white , #f2f2f2);
@@ -93,15 +93,17 @@ nav ul li a:hover{
 		writing-mode: vertical-rl; 
 		position: relative;
 		font-family: 'Pacifico', cursive;
-		border :;
 		margin-top: 18%;
 		left: 0;
 		background-color: rgb(236,236,236);
 		font-size: 30px;
-		color: #873913;
 		box-shadow: #873913 0px 0px 8px 0px;
 		padding: 20px 8px 20px 3px;
 		margin-left: 0;
+}
+#list_of_sellers a{
+	color: #873913;
+	text-decoration: none;
 }
 #list {
 	border: 2px groove #873913 ;
@@ -206,6 +208,21 @@ nav ul li a:hover{
 	
 
 }
+
+/*adding meia query for height*/
+@media screen and (max-height: 500px)
+{
+	header{
+	height: 20vh;
+	overflow: hidden;
+	box-shadow: rgb(128, 128, 128) 0px 0px 8px 0px;
+}
+	#logo img
+{
+	width: 20vh;
+	height: 20vh;
+}	
+}
 /*Adding media query for width*/
 @media screen and (max-width: 800px){
 	
@@ -217,7 +234,6 @@ nav ul li a:hover{
 		z-index: 1000;
 		position: absolute;
 		right: 5vw;
-		
 		top: 10.75vh;
 		margin-top: 0;
 		width: 50%;
@@ -242,26 +258,68 @@ nav ul li a:hover{
 	#list_of_sellers {
 		max-width: 10%;
 }
-	#list{
-		position: absolute;
-		margin-left: -32%;
+	#list{ 
+		margin-left: -10%;
+		width: 0;
 	}
 	.icons{
 		width: 85%;
 	}
+	.abc{
+	width: 30%;
+	}
 
 }
-/*Adding media query for height*/
-@media screen and (max-height: 500px)
+@media screen and (max-width: 425px)
 {
 	header{
-	height: 20vh;
+	width: 100%;
+	height: 10vh;
 	overflow: hidden;
 	box-shadow: rgb(128, 128, 128) 0px 0px 8px 0px;
 }
-	#logo img
+#logo img
 {
-	width: 20vh;
-	height: 20vh;
-}	
+	width: 10vh;
+	height: 10vh;
+	margin-left: 5px;
+}
+#container{
+	width: 33px;
+	height: 32px;
+	top: .5vh;
+}
+.bar1 {
+    width: 30px;
+    height: 1.5px;
+    padding: 1px 0 2px 1px;
+}
+nav ul{
+		top: 6.25vh;
+	}
+	#list_of_sellers { 
+		font-size: 28px;
+		max-width: 15%;
+		color: #873913;
+		box-shadow: #873913 0px 0px 8px 0px;
+		padding: 20px 4px 20px 4px;
+		margin-left: 0;
+}
+.icons{
+	width: 80%;	
+	}
+.buy{
+	margin-top: 16vh;
+	width: 60%;
+	padding: 1vh 0 1vh 0;
+	float: left;
+	margin-left: 20%;
+	}
+.sell{
+	margin-top: 5vh;
+	width: 60%;
+	padding: 1vh 0 1vh 0;
+	float: left;
+	margin-left: 20%;
+}
 }
