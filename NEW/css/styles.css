@@ -419,7 +419,7 @@ footer{
 .follow-us span{
 	font-family: "Minion",serif;
 	letter-spacing: 0.6em;
-	padding: 8px;
+	padding: 0px;
 }
 
 .elements-footer{
@@ -603,6 +603,7 @@ margin-left: 0;
 		/*address bar starts*/
         /*this is for safety purpose if boundary is needed*/
 		.container_of_address_bar{
+			font-family: 'Boogaloo', cursive;
 			font-size : 14px;
 			padding: 3px;
 			height: 500px;
@@ -644,7 +645,6 @@ margin-left: 0;
 
 	.elements-footer{
 		padding: 10px;
-		display: inline-block;
 		width: 100vw;
 	}
 	.elements-footer i{
@@ -760,8 +760,8 @@ margin-left: 0;
 			margin-left: 5%;
 		}
 
-		.follow-us{
-		font-size: 5px;
+	.follow-us{
+		font-size: 7vw;
 		color: black;
 		text-align: center;
 	}	
@@ -772,15 +772,34 @@ margin-left: 0;
 
 	.elements-footer{
 		padding: 0px;
-		display: inline;
 		width: 100%;
 	}
 	.elements-footer i{
 		word-spacing: 3vw;
-		size: 1%;	
-	}	
+		size: 3%;	
+	}
 }
+@media screen and (max-width: 270px){
+	.follow-us{
+		font-size: 20vw;
+		color: black;
+		text-align: center;
+	}	
+	.follow-us span{
+		font-family: "Minion",serif;
+		letter-spacing: 0.2em;	
+	}
 
+	.elements-footer{
+		align-items: center;
+		padding: 0px;
+		width: 100%;
+	}
+	.elements-footer i{
+		word-spacing: 3vw;
+		width: 100%;	
+	}
+}
 
 /*media query for height*/
 @media screen and (max-height: 450px){
