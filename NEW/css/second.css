@@ -135,10 +135,12 @@ nav ul li a:hover{
  .odd{
  	background-color:  #b3b3b3;
  }
-.icons{
+#icons{
 	width: 60%;
+	background-color: red;
 	letter-spacing: 0.5em;
 	position: relative;
+	z-index: 2000;
 	float: right;
 	text-decoration: none;
 	overflow: hidden;
@@ -192,12 +194,13 @@ nav ul li a:hover{
 
 #about_us_content{
 	background-color: #873913;
+	position: absolute;
+	top: 0;
 	letter-spacing: 0.05em;
 	word-spacing: 0.15em;
 	color: rgba(236,236,236,1);
 	font-family: 'Adobe Fan Heiti Std B';
 	width: 100%; 
-	margin-top: 30%;
 	position: relative;
 	font-size: 25px;
 
@@ -259,10 +262,11 @@ nav ul li a:hover{
 		max-width: 10%;
 }
 	#list{ 
-		margin-left: -10%;
-		width: 0;
+		margin-left: -100%;
+		width: 80%;
+		height: 85vh;
 	}
-	.icons{
+	#icons{
 		width: 85%;
 	}
 	.abc{
@@ -305,8 +309,9 @@ nav ul{
 		padding: 20px 4px 20px 4px;
 		margin-left: 0;
 }
-.icons{
-	width: 80%;	
+#icons{
+	width: 80%;
+	height: 85vh;	
 	}
 .buy{
 	margin-top: 16vh;
