@@ -8,10 +8,13 @@
 	<link rel="stylesheet" type="text/css" href="css/second.css">
 	<title>list of sellers</title>
 	<link href="https://fonts.googleapis.com/css?family=Merienda|Pacifico|Monoton" rel="stylesheet">
-	    <link rel="stylesheet" type="text/css" href="fontawesome/css/fontawesome.css">
+<link href="https://fonts.googleapis.com/css?family=Do+Hyeon" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="fontawesome/css/fontawesome.css">
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet"> 
     <link rel="stylesheet" type="text/css" href="fontawesome/css/all.css">
     <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Boogaloo" rel="stylesheet">
+    <script type="text/javascript" src="js/second.js"></script>
 </head>
 <body>
 	
@@ -21,10 +24,15 @@
 		<div id="header_inner">
 			<a href= "buysellbc.html" id="logo"><img src="images/BC.jpg" alt="bhopal Caterer"></a>
 			<nav>
-				<a href="#" id="menu_icon"></a>
+					<a href="javascript:void(0);" class="icon">
+						<div id="container" >    
+    					<div class="bar1"></div>
+					    <div class="bar1"></div>
+						<div class="bar1"></div>
+						</div>
 				<ul>
 					<li><a href="index.html" class="fa fa-home"><pre>   </pre></a></li>
-					<li><a href="pdfs/bc-menu.pdf">Mess-Menu</a></li>
+					<li><a href="pdfs/bc-menu.pdf">Menu</a></li>
 					<li><a href="#">About us</a></li>
 				</ul>
 			</nav>
@@ -63,11 +71,10 @@
 		<li class="odd">seller28</li>
 		<li class="eve">seller29</li>
 		<li class="odd">seller30</li>
-
 		</ul>
 	</div>
-	<span id="list_of_sellers">Sellers</span>
-	<div class="icons">
+	<span id="list_of_sellers" onclick="transformingSellers()" ><a href="#" >Sellers</a></span>
+	<div id="icons">
 		<a href="#" class="buy">BUY</a>
 		<a href="#" class="sell">SELL</a>
 	</div>
@@ -76,6 +83,5 @@
 		<h1> About us</h1>
 	Bhopal Caterers is a professionally managed organization in catering and food business with over 12 years of experience. They are engaged in “On-site catering solutions” since 2001 and has achieved expertise in customized institutional catering. They are providing services at IIT Indore since July 2014.
 	</div>
-
 </body>
 </html>
