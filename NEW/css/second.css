@@ -1,7 +1,7 @@
 	
 /*TOP navigation bar starts here*/
 body{
-	background: linear-gradient(to right , white , #f2f2f2);
+	background: linear-gradient(to left , white , #f2f2f2, #737373);
 }
 header{
 	width: 100%;
@@ -93,7 +93,7 @@ nav ul li a:hover{
 		writing-mode: vertical-rl; 
 		position: relative;
 		font-family: 'Pacifico', cursive;
-		margin-top: 18%;
+		margin-top: 30vh;
 		left: 0;
 		background-color: rgb(236,236,236);
 		font-size: 30px;
@@ -136,11 +136,9 @@ nav ul li a:hover{
  	background-color:  #b3b3b3;
  }
 #icons{
-	width: 60%;
-	background-color: red;
+	width: 65%;
 	letter-spacing: 0.5em;
 	position: relative;
-	z-index: 2000;
 	float: right;
 	text-decoration: none;
 	overflow: hidden;
@@ -193,22 +191,31 @@ nav ul li a:hover{
 }
 
 #about_us_content{
-	background-color: #873913;
-	position: absolute;
-	top: 0;
+	background-color:  #f2f2f2;
+	border-radius: 6px;
+	box-shadow: 
 	letter-spacing: 0.05em;
 	word-spacing: 0.15em;
-	color: rgba(236,236,236,1);
+	color: #4d4d4d;
 	font-family: 'Adobe Fan Heiti Std B';
-	width: 100%; 
-	position: relative;
+	width: 98%; 
+	background: linear-gradient(to bottom right,#cccccc , #f2f2f2, white);
+	margin: auto;
+	float: center;
 	font-size: 25px;
-
+	box-shadow: #8c8c8c 0px 0px 8px 0px;
+	position: absolute;
+	top: 103vh;
+	padding: 1vh 0 1vh 0;
+	text-align: center;
 }
 #about_us_content h1{
 	width: 100%;
+	font-size: 40px;
+	font-family: 'Lobster', cursive;
 	position: relative;
-	
+	top: 0;
+}
 
 }
 
@@ -234,7 +241,6 @@ nav ul li a:hover{
 	}
 	nav ul{
 		display: none;
-		z-index: 1000;
 		position: absolute;
 		right: 5vw;
 		top: 10.75vh;
@@ -250,6 +256,7 @@ nav ul li a:hover{
 		box-shadow: rgb(128, 128, 128) 0px 0px 8px 0px;
 		border-radius: 8%;
 		text-align: center;
+		z-index: 1000;
 		border: 2px groove #873913;
 		right :0;
 		margin-right: 0;
@@ -314,17 +321,17 @@ nav ul{
 	height: 85vh;	
 	}
 .buy{
-	margin-top: 16vh;
+	margin-top: 25vh;
 	width: 60%;
-	padding: 1vh 0 1vh 0;
+	padding: 3vh 0 3vh 0;
 	float: left;
 	margin-left: 20%;
 	}
 .sell{
-	margin-top: 5vh;
+	margin-top: 10vh;
 	width: 60%;
-	padding: 1vh 0 1vh 0;
+	padding: 3vh 0 3vh 0;
 	float: left;
 	margin-left: 20%;
-}
+	}
 }
