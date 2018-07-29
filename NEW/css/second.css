@@ -142,16 +142,17 @@ nav ul li a:hover{
 
 #about_us_content{
 	background-color: #873913;
+	letter-spacing: 0.05em;
+	word-spacing: 0.15em;
 	color: rgba(236,236,236,1);
-	font-family: 'Boogaloo', cursive;
+	font-family: 'Adobe Fan Heiti Std B';
 	width: 100%; 
 	margin-top: 30%;
 	position: relative;
-	font-size: 35px;
+	font-size: 25px;
 
 }
 #about_us_content h1{
-	font-family: 'Boogaloo', cursive;
 	width: 100%;
 	margin-top: 30%;
 	position: relative;
