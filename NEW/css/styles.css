@@ -760,8 +760,8 @@ margin-left: 0;
 			margin-left: 5%;
 		}
 
-		/*.follow-us{
-		font-size: 10vw;
+	.follow-us{
+		font-size: 7vw;
 		color: black;
 		text-align: center;
 	}	
@@ -771,14 +771,13 @@ margin-left: 0;
 	}
 
 	.elements-footer{
-		align-items: center;
 		padding: 0px;
 		width: 100%;
 	}
 	.elements-footer i{
 		word-spacing: 3vw;
 		size: 3%;	
-	}*/
+	}
 }
 @media screen and (max-width: 270px){
 	.follow-us{
