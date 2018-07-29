@@ -4,7 +4,7 @@
 header{
 	width: 100%;
 	height: 15vh;
-	overflow: hidden;
+	/*overflow: hidden;*/
 	box-shadow: rgb(128, 128, 128) 0px 0px 8px 0px;
 }
 #header_inner{
@@ -18,7 +18,7 @@ header{
 	height: 15vh;
 	margin-left: 20px;
 	border-radius: 50%;
-	box-shadow: white 0px 0px 8px 0px;
+	box-shadow: #873913 0px 0px 8px 0px;
 }
 #logo:hover img{
 	transition-duration: .4s;
@@ -27,15 +27,35 @@ header{
 }
 /* start navigation */
 nav{
-	float: right;
-	margin-top: 10px;
-	padding: 25px 20px 0 0;
+	position: absolute;
+	top: 5vh;
+	right: 0;
+	height: 10vh;
+	width: 25%;
+	min-width: 325px;
+	z-index: 5;
+	right: 0;
+	float: right;;
 }
-#menu_icon{
+#container{
 	display: none;
 	width: 40px;
 	height: 40px;
-	background: url(img/nav.png) center;
+	position: absolute;
+	right: 5vw;
+	top: 5vh;
+	z-index: 10000;
+	text-align: center;
+}
+.bar1, .bar2, .bar3 {
+    width: 39px;
+    height: 2px;
+    padding: 2px 0 2px 1px;
+    background-color: #873913;
+    margin: 4px 0;
+    transition: 0.4s;
+    z-index: 20;
+    text-align: center;
 }
 a: hover#menu_icon{
 	border-radius: 4px 4px 0 0;
@@ -45,9 +65,9 @@ ul{
 }
 nav ul li{
 	font-size: 30px;
+	padding: 2vh 5px 1vh 5px;
 	display: inline-block;
 	float: left;
-	padding: 10px;
 }
 nav ul li a{
 	color: #873913;
@@ -68,7 +88,7 @@ nav ul li a:hover{
 		background-color: rgb(236,236,236);
 		font-size: 30px;
 		color: #873913;
-		box-shadow: rgb(128, 128, 128) 0px 0px 8px 0px;
+		box-shadow: #873913 0px 0px 8px 0px;
 		padding: 20px 8px 20px 3px;
 		margin-left: 0;
 }
@@ -115,20 +135,20 @@ nav ul li a:hover{
 	}
 .buy{
 	font-size: 6vw;
+	margin-top: 30vh;
 	color: #873913;
 	text-decoration: none;
-
-	font-family: 'Abril Fatface', cursive;
-
+	font-family: 'Do Hyeon', sans-serif;
 	text-align: center;
 	float: left;
 	margin-left: 20%;
 }
 .sell{
 	font-size: 6vw;
+	margin-top: 30vh;
 	color: #873913;
 	text-decoration: none;
-	font-family: 'Abril Fatface', cursive;
+	font-family: 'Do Hyeon', sans-serif;
 	text-align: center;
 	float: right;
 	margin-right: 20%;
@@ -151,4 +171,45 @@ nav ul li a:hover{
 	font-size: 25px;
 
 }
+/*Adding media query for width*/
+@media screen and (max-width: 800px){
+	body{
+		background-color: black;
+	}
+	#container{
+		display: inline-block;
+	}
+	nav ul, nav:active ul{
+		z-index: 1000;
+		background: #6991AC;
+		right: 20px;
+		position: absolute;
+		top: 15vh;
+		width: 50%;
 
+	}
+	nav:hover ul {
+		display: block;
+		color: black;
+	}
+	nav li{
+		text-align: center;
+		height: 10vh;
+		width: 100%;
+		padding: 10px 0;
+	}
+}
+/*Adding media query for height*/
+@media screen and (max-height: 500px)
+{
+	header{
+	height: 20vh;
+	overflow: hidden;
+	box-shadow: rgb(128, 128, 128) 0px 0px 8px 0px;
+}
+	#logo img
+{
+	width: 20vh;
+	height: 20vh;
+}	
+}
