@@ -1,6 +1,8 @@
 
 /*TOP navigation bar starts here*/
-
+body{
+	background: linear-gradient(to right , white , #f2f2f2);
+}
 header{
 	width: 100%;
 	height: 15vh;
@@ -30,7 +32,7 @@ nav{
 	position: absolute;
 	top: 5vh;
 	right: 0;
-	height: 10vh;
+	height: 11.25vh;
 	width: 25%;
 	min-width: 325px;
 	z-index: 5;
@@ -39,23 +41,32 @@ nav{
 }
 #container{
 	display: none;
-	width: 40px;
-	height: 40px;
+	width: 42px;
+	height: 35px;
 	position: absolute;
 	right: 5vw;
 	top: 5vh;
 	z-index: 10000;
 	text-align: center;
 }
-.bar1, .bar2, .bar3 {
+.bar1 {
     width: 39px;
     height: 2px;
+    position: relative;
+    left: 1px;
     padding: 2px 0 2px 1px;
     background-color: #873913;
     margin: 4px 0;
     transition: 0.4s;
     z-index: 20;
     text-align: center;
+}
+nav:hover #container{
+   border: 1px dotted #873913;
+   border-radius: 10%;
+}
+nav: hover>.bar1{
+	width: 38.5px;
 }
 a: hover#menu_icon{
 	border-radius: 4px 4px 0 0;
@@ -93,7 +104,7 @@ nav ul li a:hover{
 		margin-left: 0;
 }
 #list {
-	border: 4px groove #001a33;
+	border: 2px groove #873913 ;
 	font-size: 10px;
 	height: 85vh;
 	float: left;
@@ -130,39 +141,51 @@ nav ul li a:hover{
 	text-decoration: none;
 	overflow: hidden;
 	height: 85vh;
-	background-color: red;
 	position: relative; 	
 	}
 .buy{
-	font-size: 6vw;
+	transition-duration: 0.5s;
+	background-color: rgb(230, 230, 230);
+	width: 27%;
+	font-size: 5.5vw;
 	margin-top: 30vh;
+	margin-right: 10%;
 	color: #873913;
 	text-decoration: none;
 	font-family: 'Do Hyeon', sans-serif;
 	text-align: center;
+	border-radius: 5%;
 	float: left;
-	margin-left: 20%;
+	margin-left: 16%;
+	box-shadow: rgb(128, 128, 128) 0px 0px 8px 0px;
 }
 .sell{
-	font-size: 6vw;
+	transition-duration: 0.5s;
+	background-color: rgb(230, 230, 230);
+	width: 27%;
+	font-size: 5.5vw;
 	margin-top: 30vh;
 	color: #873913;
 	text-decoration: none;
 	font-family: 'Do Hyeon', sans-serif;
 	text-align: center;
 	float: right;
-	margin-right: 20%;
+	border-radius: 5%;
+	margin-right: 16%;
+	box-shadow: rgb(128, 128, 128) 0px 0px 8px 0px;
 	
 }
 .buy:hover{
 	transition-duration: 0.5s;
 	transform: scale(1.3);
 	color: #873913;
+	box-shadow: rgb(128, 128, 128) 2px 2px 8px 0px;
 }
 .sell:hover{
 	transition-duration: 0.5s;
 	transform: scale(1.3);
 	color: #873913;
+	box-shadow: rgb(128, 128, 128) 2px 2px 8px 0px;
 }
 
 #about_us_content{
@@ -184,18 +207,18 @@ nav ul li a:hover{
 }
 /*Adding media query for width*/
 @media screen and (max-width: 800px){
-	body{
-		background-color: black;
-	}
+	
 	#container{
 		display: inline-block;
 	}
-	nav ul, nav:active ul{
+	nav ul{
+		display: none;
 		z-index: 1000;
-		background: #6991AC;
-		right: 20px;
 		position: absolute;
-		top: 15vh;
+		right: 5vw;
+		
+		top: 10.75vh;
+		margin-top: 0;
 		width: 50%;
 
 	}
@@ -203,12 +226,29 @@ nav ul li a:hover{
 		display: block;
 		color: black;
 	}
-	nav li{
+	nav ul li{
+		box-shadow: rgb(128, 128, 128) 0px 0px 8px 0px;
+		border-radius: 8%;
 		text-align: center;
-		height: 10vh;
+		border: 2px groove #873913;
+		right :0;
+		margin-right: 0;
+		background-color: rgb(236,236,236);
+		height: 5vh;
 		width: 100%;
-		padding: 10px 0;
+		padding: 10px 4px 10px 4px;
 	}
+	#list_of_sellers {
+		max-width: 10%;
+}
+	#list{
+		position: absolute;
+		margin-left: -32%;
+	}
+	.icons{
+		width: 85%;
+	}
+
 }
 /*Adding media query for height*/
 @media screen and (max-height: 500px)
