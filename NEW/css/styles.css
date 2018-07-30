@@ -279,7 +279,7 @@ a{
 		height: 600px;       /*also this*/
 		float: left;
 	}
-}
+
 /*image animation ends*/
 /*text animation*/
 @keyframes text_image{
@@ -333,7 +333,7 @@ a{
 	padding: 10px;
 	position: absolute;
 	color: transparent;
-	/*font-family: "Lobster", cursive;*/
+	font-family: "Lobster", cursive;
 	font-size: 40px;
 	float: bottom;
 	margin-top: 400px;
