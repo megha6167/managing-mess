@@ -1,4 +1,4 @@
-	
+
 /*TOP navigation bar starts here*/
 #header div{
 	display: inline;
@@ -377,11 +377,12 @@ a{
 		align-self: center;
 	}
 	.images{
-		width: 20%;
-		height: 20%;
-		margin-left: 40%;
+		width: 20vw;
+		height: 30vw;
+		margin-left: 40vw;
 		padding: 10px;
 	}
+
 	
 	
 
@@ -685,6 +686,12 @@ margin-left: 0;
 		size: 5%
 		padding: 4%;
 	}	
+	.images{
+		width: 30vw;
+		height: 40vw;
+		margin-left: 40%;
+		padding: 10px;
+	}
 }
 /*additional media queries to handle address bar*/
 @media screen and (max-width: 400px)
@@ -832,6 +839,7 @@ margin-left: 0;
 		word-spacing: 3vw;
 		width: 100%;	
 	}
+	
 }
 
 /*media query for height*/
