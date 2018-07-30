@@ -4,99 +4,97 @@
 	<title>IITI MESS MANAGEMENT-Kanaka Caterers</title>
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="shortcut icon" type="images/jpg" href="images/BC.jpg">
+	<link rel="shortcut icon" type="images/jpg" href="images/KC.jpg">
 	<link rel="stylesheet" type="text/css" href="css/second.css">
 	<title>list of sellers</title>
 	<link href="https://fonts.googleapis.com/css?family=Merienda|Pacifico|Monoton" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=MedievalSharp" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Do+Hyeon" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="fontawesome/css/fontawesome.css">
   <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet"> 
     <link rel="stylesheet" type="text/css" href="fontawesome/css/all.css">
     <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Boogaloo" rel="stylesheet">
-    <script type="text/javascript" src="js/second.js"></script>s
+    <script type="text/javascript" src="js/second.js"></script>
 </head>
 <body>
-
-	<!--Top navigation bar starts here-->
-
-
-<header>
-	<div id="header_inner">
-			<a href="buysellkc.html" id="logo"><img src="images/KC.jpg" alt="Kanaka Caterers"></a>
-		<nav>
-				<a href="javascript:void(0);" class="icon">
+	
+    <!--Top navigation bar starts here-->
+    <div id="modal">
+    	<div id="exit" onclick="closeModal()" >&#10006;</div>
+    	<img src="images/user.png">
+    	<div id="Name"> Prashita Jain</div>
+    	<div id="contact">8965038752</div>
+    	<div id="meal">Breakfast</div>
+    	<div id="price">@  &#8377;50</div>
+    </div>
+    
+    <header>
+		<div id="header_inner">
+			<a href= "buysellkc.html" id="logo"><img src="images/KC.jpg" alt="Kanaka Caterer"></a>
+			<nav>
+					<a href="javascript:void(0);" class="icon">
 						<div id="container" >    
     					<div class="bar1"></div>
 					    <div class="bar1"></div>
 						<div class="bar1"></div>
 						</div>
-
-			<a href=# id="menu_icon"></a>
-	    	<ul>
-			<li><a href="index.html" class="fa fa-home"></a></li>
-			<li><a href="pdfs/kcmenu.pdf">Menu</a></li>
-			<li><a href="#">About Us</a></li>
-
-			</ul>
-		</nav>
-	</div>
-</header>
-
- 	<!--top navigation ends here-->
-	
-	 <div id="list">
+				<ul>
+					<li><a href="index.html" class="fa fa-home"><pre>   </pre></a></li>
+					<li><a href="pdfs/kcmenu.pdf">Menu</a></li>
+					<li><a href="#about_us_content">About us</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+    <!--top navigation ends here-->
+    <div id="list">
 		<ul>
-		<li class="eve">seller1</li>
-		<li class="odd">seller2</li>
-		<li class="eve">seller3</li>
-		<li class="odd">seller4</li>
-		<li class="eve">seller5</li>
-		<li class="odd">seller6</li>
-		<li class="eve">seller7</li>
-		<li class="odd">seller8</li>
-		<li class="eve">seller9</li>
-		<li class="odd">seller10</li>
-		<li class="eve">seller11</li>
-		<li class="odd">seller12</li>
-		<li class="eve">seller13</li>
-		<li class="odd">seller14</li>
-		<li class="eve">seller15</li>
-		<li class="odd">seller16</li>
-		<li class="eve">seller17</li>
-		<li class="odd">seller18</li>
-		<li class="eve">seller19</li>
-		<li class="odd">seller20</li>
-		<li class="eve">seller21</li>
-		<li class="odd">seller22</li>
-		<li class="eve">seller23</li>
-		<li class="odd">seller24</li>
-		<li class="eve">seller25</li>
-		<li class="odd">seller26</li>
-		<li class="eve">seller27</li>
-		<li class="odd">seller28</li>
-		<li class="eve">seller29</li>
-		<li class="odd">seller30</li>
-
+		<li class="eve" onclick="openModal()">seller1</li>
+		<li class="odd" onclick="openModal()">seller2</li>
+		<li class="eve" onclick="openModal()">seller3</li>
+		<li class="odd" onclick="openModal()">seller4</li>
+		<li class="eve" onclick="openModal()">seller5</li>
+		<li class="odd" onclick="openModal()">seller6</li>
+		<li class="eve" onclick="openModal()">seller7</li>
+		<li class="odd" onclick="openModal()">seller8</li>
+		<li class="eve" onclick="openModal()">seller9</li>
+		<li class="odd" onclick="openModal()">seller10</li>
+		<li class="eve" onclick="openModal()">seller11</li>
+		<li class="odd" onclick="openModal()">seller12</li>
+		<li class="eve" onclick="openModal()">seller13</li>
+		<li class="odd" onclick="openModal()">seller14</li>
+		<li class="eve" onclick="openModal()">seller15</li>
+		<li class="odd" onclick="openModal()">seller16</li>
+		<li class="eve" onclick="openModal()">seller17</li>
+		<li class="odd" onclick="openModal()">seller18</li>
+		<li class="eve" onclick="openModal()">seller19</li>
+		<li class="odd" onclick="openModal()">seller20</li>
+		<li class="eve" onclick="openModal()">seller21</li>
+		<li class="odd" onclick="openModal()">seller22</li>
+		<li class="eve" onclick="openModal()">seller23</li>
+		<li class="odd" onclick="openModal()">seller24</li>
+		<li class="eve" onclick="openModal()">seller25</li>
+		<li class="odd" onclick="openModal()">seller26</li>
+		<li class="eve" onclick="openModal()">seller27</li>
+		<li class="odd" onclick="openModal()">seller28</li>
+		<li class="eve" onclick="openModal()">seller29</li>
+		<li class="odd" onclick="openModal()">seller30</li>
 		</ul>
 	</div>
-	<span id="list_of_sellers" onclick="transformingSellers()"><a href="#">Sellers</a></span>
+	<span id="list_of_sellers" onclick="transformingSellers()" ><a href="#" >Sellers</a></span>
 	<div id="icons">
 		<a href="#" class="buy">BUY</a>
 		<a href="#" class="sell">SELL</a>
 	</div>
-	<div id="about_us_content">
+		<div id="about_us_content">
 			<h1> About us</h1>
-			The year 1998 was turning point for Kanaka Catering Services business as another dynamic and an enthusiastic young person graduated from Mangalore University in commerce and was working with hotel TAJ was inspired to become a businessman joined Mr. Jagdish Shetty and both the young and energetic persons have formed a partnership firm by name Kanaka Caterers and Hospitality Services.
-
-The vision of both the youngsters was to become preferred catering services providers in the Food Management and hospitality Industry. Hard work and unlimited efforts of the partners gave returns resulted in to business growth as per the expectation of both young businessmen.
-
-Form partnership firm to private ltd. company.
-
-The year 2008 brought exploring change in their dream. Both the partners became promoters and formed a private limited company as Kanaka Food Management Services Pvt. Ltd.
-
-The incorporation of Private Limited Company has boosted the morale of the promoters and its employees. The Catering services business has spread over from one state i.e. Maharashtra to four states in the country i.e. Maharashtra, Goa, Karnataka, Orissa, today.
- 
-</div>
+			Kanaka Food Management Services Pvt. Ltd are in the catering business since 25 years. Their vast experience and expertise in the food management field makes them capable of giving excellent service to the satisfaction of the customers. They are providing services at IIT Indore since February 2018.
+			<div id="copyright">
+			<hr style="background-color: #1a1a1a;">
+			©2018 IITI SoC - All Rights Reserved
+			<hr style="background-color: #1a1a1a;">
+			</div>
+		</div>
 </body>
 </html>
