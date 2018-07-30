@@ -1,4 +1,4 @@
-	
+
 /*TOP navigation bar starts here*/
 body{
 	background: linear-gradient(to left , white , #f2f2f2, #737373);
@@ -310,7 +310,7 @@ nav ul li a:hover{
 		display: none;
 		position: absolute;
 		right: 5vw;
-		top: 10.75vh;
+		top: 13vh;
 		margin-top: 0;
 		width: 50%;
 
@@ -346,6 +346,50 @@ nav ul li a:hover{
 	.abc{
 	width: 30%;
 	}
+	#about_us_content{
+	letter-spacing: 0.02em;
+	word-spacing: 0.07em;
+	font-size: 20px;
+	}
+#about_us_content h1{
+	font-size: 30px;
+	}
+#exit{
+	margin-right: 20px;
+	margin-top: 5px;
+	}
+#modal img{
+	width: 30vw;
+	height: 25vh;
+	}
+#Name{
+	top: 45vh;
+	font-size: 35px;
+	left: 38vw;
+}
+#contact{
+	top: 52vh;
+	font-size: 35px;
+	left: 38vw;
+}
+#meal{
+	top: 59vh;
+	font-size: 35px;
+	left: 38vw;
+}
+#price{
+	top: 66vh;
+	font-size: 35px;
+	left: 38vw;
+}
+#copyright{
+	margin-top: 15px;
+	height: 25px;
+	color: #404040;
+	background: linear-gradient(to left , #404040, #f2f2f2, #404040);
+	font-family: 'MedievalSharp', cursive;
+	font-size: 15px;
+}
 
 }
 @media screen and (max-width: 425px)
@@ -401,4 +445,38 @@ nav ul{
 	float: left;
 	margin-left: 20%;
 	}
+	#exit{
+	margin-right: 18px;
+	margin-top: 4px;
+	font-size: 25px;
+	}
+#modal img{
+	left:18vw;
+	top: 11vh;
+	width: 60vw;
+	height: 30vh;
+	}
+#Name{
+	top: 46vh;
+	font-size: 30px;
+	left: 23vw;
+}
+#contact{
+	top: 53vh;
+	font-size: 30px;
+	left: 23vw;
+}
+#meal{
+	top: 60vh;
+	font-size: 30px;
+	left: 23vw;
+}
+#price{
+	top: 67vh;
+	font-size: 30px;
+	left: 23vw;
+}
+#list{
+	width: 78%;
+}
 }
