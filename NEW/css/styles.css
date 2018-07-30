@@ -377,12 +377,11 @@ a{
 		align-self: center;
 	}
 	.images{
-		width: 20vw;
-		height: 30vw;
-		margin-left: 40vw;
+		width: 25vw;
+		height: 35vw;
+		margin-left: 37.5vw;
 		padding: 10px;
 	}
-
 	
 	
 
@@ -687,9 +686,9 @@ margin-left: 0;
 		padding: 4%;
 	}	
 	.images{
-		width: 30vw;
-		height: 40vw;
-		margin-left: 40%;
+		width: 40vw;
+		height: 55vw;
+		margin-left: 30vw;
 		padding: 10px;
 	}
 }
