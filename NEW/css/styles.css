@@ -275,7 +275,7 @@ a{
 }
 .slider img{
 	    width: 16.66666%;
-		z--index: -6;	/*change it and see the effect*/
+		z-index: -6;	/*change it and see the effect*/
 		height: 600px;       /*also this*/
 		float: left;
 	}
@@ -333,7 +333,7 @@ a{
 	padding: 10px;
 	position: absolute;
 	color: transparent;
-	font-family: "Lobster", cursive;
+	/*font-family: "Lobster", cursive;*/
 	font-size: 40px;
 	float: bottom;
 	margin-top: 400px;
@@ -658,6 +658,13 @@ margin-left: 0;
     /*	footer{
 		height: 5%;
 	}*/
+	div.content-about-us{
+		font-size: 35px;
+	}
+	
+	div.content-points{
+		font-size: 18px;
+	}
 	.follow-us{
 		font-size: 35px;
 		color: black;
@@ -695,7 +702,7 @@ margin-left: 0;
 	}
 	.slider img{
 		width: 16.66666%;
-		z--index: -6;	/*change it and see the effect*/
+		z-index: -6;	/*change it and see the effect*/
 		height: 200px;       /*also this*/
 		float: left;
 	}
