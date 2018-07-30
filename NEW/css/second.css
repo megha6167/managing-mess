@@ -125,6 +125,7 @@ nav ul li a:hover{
  	margin: 0;
  }
  #list ul li{
+ 	cursor: pointer;
  	position: relative;
  	left: -40px;
  	font-size: 27px;
@@ -193,7 +194,6 @@ nav ul li a:hover{
 	box-shadow: rgb(128, 128, 128) 2px 2px 8px 0px;
 	text-shadow: 1px 2px #bfbfbf;
 }
-
 #about_us_content{
 	background-color:  #f2f2f2;
 	border-radius: 6px;
@@ -219,6 +219,69 @@ nav ul li a:hover{
 	font-family: 'Lobster', cursive;
 	position: relative;
 	top: 0;
+}
+#modal {
+	position: fixed;
+	z-index: 1500;
+	width: 100%;
+	height: 0%;
+	background-color: rgb(13, 13, 13, .75);
+	overflow: hidden;
+}
+#exit{
+	float: right;
+	margin-right: 4vw;
+	margin-top: 3vh;
+	font-size: 30px;
+	color: white;
+	cursor: pointer;
+}
+#modal img{
+	position: absolute;
+	width: 25vw;
+	height: 35vh;
+	top: 16vh;
+	left: 37vw;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px; 
+	border: 3px groove rgb(242, 242, 242);
+	box-shadow:	rgb(230, 230, 230) 0px 0px 5px 5px;
+}
+#Name{
+	position: absolute;
+	top: 55vh;
+	font-size: 45px;
+	left: 42vw;
+	color: white;
+}
+#contact{
+	position: absolute;
+	top: 63vh;
+	font-size: 43px;
+	left: 42vw;
+	color: white;
+}
+#meal{
+	position: absolute;
+	top: 71vh;
+	font-size: 40px;
+	left: 42vw;
+	color: white;
+}
+#price{
+	position: absolute;
+	top: 79vh;
+	font-size: 38px;
+	left: 42vw;
+	color: white;
+}
+#copyright{
+	margin-top: 15px;
+	height: 25px;
+	color: #404040;
+	background: linear-gradient(to left , #404040, #f2f2f2, #404040);
+	font-family: 'MedievalSharp', cursive;
+	font-size: 15px;
 }
 
 }

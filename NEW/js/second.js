@@ -42,3 +42,9 @@ else if(x.matches){
 a.setAttribute("onclick", "transformingSellers()");
 	
 }
+function closeModal(){
+	document.getElementById("modal").style.height = "0%";
+}
+function openModal(){
+	document.getElementById("modal").style.height = "100%";
+}
