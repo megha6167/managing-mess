@@ -1,4 +1,4 @@
-
+	
 /*TOP navigation bar starts here*/
 #header div{
 	display: inline;
@@ -376,6 +376,13 @@ a{
 		color: #4d4d4d;
 		align-self: center;
 	}
+	.images{
+		width: 20%;
+		height: 20%;
+		margin-left: 40%;
+		padding: 10px;
+	}
+	
 	
 
 /*address bar starts*/
