@@ -479,4 +479,13 @@ nav ul{
 #list{
 	width: 78%;
 }
+#copyright{
+	margin-top: 15px;
+	height: 25px;
+	color: #404040;
+	background: linear-gradient(to left , #404040, #f2f2f2, #404040);
+	font-family: 'MedievalSharp', cursive;
+	font-size: 12px;
+}
+
 }
